@@ -1,0 +1,44 @@
+.input-group {
+  position: relative;
+  background-color: white;
+  width: max-content;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 3px solid purple;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+label {
+  position: absolute;
+  top: -16px;
+  left: 16px;
+  margin: 0.25rem;
+  padding: 2px;
+  color: purple;
+  font-weight: 600;
+  background-color: white;
+}
+
+.error > label {
+  color: red;
+}
+.error {
+  border: 3px solid red;
+}
+.success > label {
+  color: green;
+}
+.success {
+  border: 3px solid green;
+}
