@@ -1,0 +1,71 @@
+:root {
+  --primary-bgcolor: #8b6aee;
+  --padding-md: 1rem;
+  --margin-md: 1rem;
+  --fontSize: 1rem;
+  --radius: 0.25rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 800px;
+}
+.avatar {
+  display: relative;
+  max-width: 3.25rem;
+  max-height: 3.25rem;
+  border-radius: 50%;
+  background-color: var(--primary-bgcolor);
+}
+
+.avatar-text {
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-align: center;
+  max-width: fit-content;
+  background-color: var(--primary-bgcolor);
+  padding: 1rem;
+}
+.img-responsive {
+  display: static;
+  width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.sm {
+  max-width: 5rem;
+  max-height: 5rem;
+}
+
+.md {
+  max-width: 6.25rem;
+  max-height: 6.25rem;
+}
+
+.xl {
+  max-width: 8rem;
+  max-height: 8rem;
+}
+
+.text-sm {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.text-md {
+  padding: 1.75rem;
+  font-size: 2rem;
+}
+
+.text-xl {
+  padding: 2rem;
+  font-size: 2.5rem;
+}
