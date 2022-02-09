@@ -1,5 +1,6 @@
 .container {
   width: 50rem;
+  margin: var(--margin-xs);
 }
 .alert {
   background-color: var(--primary-bgcolor);
