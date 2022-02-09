@@ -1,0 +1,109 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 50rem;
+}
+
+.badge {
+  position: relative;
+}
+.badge-count {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: var(--success-color);
+  font-weight: 600;
+  font-size: 10px;
+  width: fit-content;
+  height: auto;
+  min-width: 0.5rem;
+  min-height: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.avatar {
+  display: static;
+  max-width: 3.5rem;
+  max-height: 3.5rem;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+
+.img-responsive {
+  display: static;
+  width: 100%;
+  height: auto;
+}
+
+.img-rounded {
+  border-radius: 50%;
+}
+
+.sm {
+  max-width: 5rem;
+  max-height: 5rem;
+  font-size: 12px;
+}
+
+.md {
+  max-width: 6.5rem;
+  max-height: 6.5rem;
+}
+
+.xl {
+  max-width: 8rem;
+  max-height: 8rem;
+}
+
+.badge-sm {
+  font-size: 12px;
+}
+
+.badge-md {
+  font-size: 14px;
+  right: 5px;
+}
+
+.badge-xl {
+  font-size: 16px;
+  right: 10px;
+}
+
+.badge-color {
+  background-color: var(--danger-color);
+}
+
+.icon-badge {
+  position: relative;
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+.icon-badge-count {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: var(--success-color);
+  font-weight: 600;
+  font-size: 10px;
+  width: fit-content;
+  height: auto;
+  min-width: 0.5rem;
+  min-height: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 50%;
+}
