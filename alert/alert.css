@@ -1,27 +1,9 @@
-:root {
-  --primary-color: #36a5ff;
-  --secondary-color: #6b39ff;
-  --success-color: #42ff85;
-  --danger-color: #ef4b4b;
-  --warning-color: #f5b314;
-  --primary-bgcolor: #b5deff;
-  --secondary-bgcolor: #cab8ff;
-  --success-bgcolor: #c1ffd7;
-  --danger-bgcolor: #f9c0c0;
-  --warning-bgcolor: #fcffa6;
-  --padding-md: 1rem;
-  --margin-md: 1rem;
-  --fontSize: 1rem;
-  --radius: 0.25rem;
-}
-
-.wrapper {
+.container {
   width: 50rem;
 }
 .alert {
   background-color: var(--primary-bgcolor);
   color: var(--primary-color);
-  /* width: max-content; */
   padding: var(--padding-md);
   margin: var(--margin-md);
   font-size: var(--fontSize);
