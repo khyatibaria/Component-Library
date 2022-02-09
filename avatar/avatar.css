@@ -1,18 +1,10 @@
-:root {
-  --primary-bgcolor: #8b6aee;
-  --padding-md: 1rem;
-  --margin-md: 1rem;
-  --fontSize: 1rem;
-  --radius: 0.25rem;
-}
-
 .container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: baseline;
-  width: 800px;
+  width: 50rem;
 }
 .avatar {
   display: relative;
