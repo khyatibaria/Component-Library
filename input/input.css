@@ -1,0 +1,44 @@
+.input-group {
+  position: relative;
+  background-color: var(--white);
+  width: max-content;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  border: 3px solid var(--secondary-color);
+}
+
+.input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.input > label {
+  position: absolute;
+  top: -16px;
+  left: 16px;
+  margin: 0.25rem;
+  padding: 2px;
+  color: var(--secondary-color);
+  font-weight: 600;
+  background-color: var(--white);
+}
+
+.error > label {
+  color: var(--danger-color);
+}
+.error {
+  border: 3px solid var(--danger-color);
+}
+.success > label {
+  color: var(--success-color);
+}
+.success {
+  border: 3px solid var(--success-color);
+}
