@@ -5,8 +5,7 @@ html {
   font-family: "Arvo", serif;
 }
 
-body {
-  background-color: var(--bg-color);
+* {
   margin: 0;
   padding: 0;
 }
