@@ -1,41 +1,32 @@
 .avatar {
-  display: relative;
+  position: relative;
   max-width: 3.25rem;
   max-height: 3.25rem;
   margin: 0.5rem;
   border-radius: 50%;
-  background-color: var(--primary-bgcolor);
 }
 
-.avatar-text {
+.text-avatar {
   font-size: 1.25rem;
   font-weight: 600;
   text-align: center;
   max-width: fit-content;
+  border-radius: 50%;
   background-color: var(--primary-bgcolor);
   padding: 1rem;
 }
-.img-responsive {
-  display: static;
-  width: 100%;
-  height: auto;
-}
 
-.img-rounded {
-  border-radius: 50%;
-}
-
-.sm {
+.avatar-sm {
   max-width: 5rem;
   max-height: 5rem;
 }
 
-.md {
+.avatar-md {
   max-width: 6.25rem;
   max-height: 6.25rem;
 }
 
-.xl {
+.avatar-xl {
   max-width: 8rem;
   max-height: 8rem;
 }
