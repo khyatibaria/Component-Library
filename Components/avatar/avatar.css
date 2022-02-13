@@ -1,15 +1,8 @@
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: baseline;
-  width: 50rem;
-}
 .avatar {
   display: relative;
   max-width: 3.25rem;
   max-height: 3.25rem;
+  margin: 0.5rem;
   border-radius: 50%;
   background-color: var(--primary-bgcolor);
 }
