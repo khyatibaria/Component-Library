@@ -9,6 +9,9 @@
 /* _______________________________________________NavBar___________________________________________________ */
 .nav {
   grid-area: nav;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 .navbar {
   display: flex;
@@ -154,12 +157,12 @@
 }
 
 .footer-link {
+  display: inline-block;
   padding: 5px 10px;
   margin: 0 0.2rem;
   text-decoration: none;
   font-size: 1.5rem;
   color: var(--white);
-  display: inline-block;
 }
 
 .primary-color {
