@@ -5,8 +5,8 @@
 .alert {
   background-color: var(--primary-bgcolor);
   color: var(--primary-color);
-  padding: var(--padding-xs);
-  margin: var(--margin-xs);
+  padding: var(--p-4);
+  margin: var(--p-4);
   font-size: var(--fontSize);
   border-radius: var(--radius);
 }
@@ -16,8 +16,8 @@ span {
 .alert-closeble {
   background-color: var(--primary-bgcolor);
   color: var(--primary-color);
-  padding: var(--padding-xs);
-  margin: var(--margin-xs);
+  padding: var(--p-4);
+  margin: var(--p-4);
   font-size: var(--fontSize);
   border-radius: var(--radius);
 }
