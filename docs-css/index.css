@@ -55,7 +55,7 @@
   justify-content: space-between;
   align-items: flex-start;
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 90%;
   min-height: 60vh;
 }
 
@@ -65,10 +65,10 @@
   background-color: var(--white);
   border-radius: 0.25rem;
   box-shadow: 8px 8px 10px #7f8389;
+  height: 30vh;
 }
 .docs-text {
   line-height: 1.5;
-  /* max-width: 50%; */
 }
 
 .docs-btn {
@@ -90,10 +90,14 @@
 }
 
 .docs-link {
-  /* width: 35rem; */
+  height: 30vh;
   margin: 1.5rem;
   padding: 1.5rem;
   background-color: var(--white);
   border-radius: 0.25rem;
   box-shadow: 8px 8px 10px #7f8389;
+}
+
+.cdn-link {
+  margin: 2rem auto;
 }
