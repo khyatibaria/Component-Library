@@ -1,0 +1,48 @@
+.modal {
+  background-color: var(--secondary-bgcolor);
+  font-size: 1.25rem;
+  margin: var(--margin-2);
+  padding: var(--padding-2);
+  text-align: center;
+  border: none;
+  border-radius: var(--radius);
+  max-width: 35rem;
+  z-index: 0;
+}
+.btn {
+  display: inline-block;
+  outline: none;
+  background-color: var(--warning-color);
+  margin: var(--margin-2);
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  font-size: var(--fontSize);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+
+#iconClose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+.modalcloseIcon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.bg-danger {
+  background-color: var(--danger-color);
+}
+
+#modalBtn {
+  position: absolute;
+  margin-top: 18rem;
+}
+#modalCloseble {
+  position: absolute;
+  z-index: 15;
+  margin-top: 22rem;
+}
