@@ -5,9 +5,8 @@ let speed = 50;
 let text = 'Build Clean, Modern UI Interfaces';
 
 window.addEventListener('load', typeWriter);
-window.addEventListener('scroll', typeWriter);
 
-const typeWriter=(e)=> {
+function typeWriter() {
   if (i < text.length) {
     head.innerHTML += text.charAt(i);
     i++;
