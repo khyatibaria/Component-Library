@@ -1,0 +1,46 @@
+@import url("./alert/alert.css");
+/* @import url("./avatar/avatar.css");
+@import url("./badge/badge.css");
+@import url("./button/button.css");
+@import url("./image/image.css");
+@import url("./input/input.css");
+@import url("./typography/typography.css");
+@import url("./modal/modal.css");
+@import url("./navigation/navigation.css");
+@import url("./toast/toast.css"); */
+@import url("./variables.css");
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "sidebar main main main main"
+    "sidebar main main main main";
+}
+
+/* _______________________________________________SideBar___________________________________________________ */
+
+/* _______________________________________________Main___________________________________________________ */
+.main {
+  grid-area: main;
+  overflow: hidden auto;
+}
+
+.component {
+  margin: 1rem;
+  padding: 0.75rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.component-head,
+.component-subhead {
+  line-height: 2.5;
+}
+
+.wrapper {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--grey);
+}
