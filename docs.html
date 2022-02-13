@@ -9,12 +9,12 @@
     <link rel="stylesheet" type="text/css" href="./docs-css/sidebar.css" />
     <link rel="stylesheet" type="text/css" href="./docs-css/footer.css" />
     <link rel="stylesheet" type="text/css" href="./Components/variables.css" />
-    <link rel="stylesheet" type="text/css" href="./Components/docs.css" />
+    <link rel="stylesheet" type="text/css" href="./Components/pixelui.css" />
     <script src="https://kit.fontawesome.com/99b4ab4b7a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!--  _______________________________________________NavBar___________________________________________________ -->
+<!--  _______________________________________________NavBar___________________________________________________ -->
     <div class="grid-container">
         <div class="nav grid-item">
             <nav class="navbar">
@@ -44,34 +44,34 @@
             </nav>
         </div>
 
-        <!--  _______________________________________________SideBar___________________________________________________ -->
+<!--  _______________________________________________SideBar___________________________________________________ -->
         <div class="sidebar grid-item" id="side-bar">
             <div class="sidebar-header">Components</div>
             <hr />
             <ul class="sidebar-links">
                 <li>
-                    <a href="./Components/alert/alert.html">Alert</a>
+                    <a href="#alert">Alert</a>
                 </li>
                 <li>
-                    <a href="./Components/avatar/avatar.html">Avatar</a>
+                    <a href="#avatar">Avatar</a>
                 </li>
                 <li>
-                    <a href="./Components/badge/badge.html">Badge</a>
+                    <a href="#badge">Badge</a>
                 </li>
                 <li>
-                    <a href="./Components/button/button.html">Button</a>
+                    <a href="#button">Button</a>
                 </li>
                 <li>
                     <a href="#">Card</a>
                 </li>
                 <li>
-                    <a href="./Components/image/image.html">Image</a>
+                    <a href="#image">Image</a>
                 </li>
                 <li>
-                    <a href="./Components/input/input.html">Input</a>
+                    <a href="#input">Input</a>
                 </li>
                 <li>
-                    <a href="./Components/typography/typography.html">Typography</a>
+                    <a href="#typography">Typography</a>
                 </li>
                 <li>
                     <a href="#">Ratings</a>
@@ -87,7 +87,81 @@
                 </li>
             </ul>
         </div>
+
+<!--  _______________________________________________Main___________________________________________________ -->
+    <div class="main grid-item">
+        <section  id="alert">
+            <div class="component">
+                <h1 class="component-head">Alerts</h1>
+                <p>
+                    Alerts are used to attract attention of user to display important
+                    information without interrupting the user.
+                </p>
+                <h3 class="component-subhead">Example of Alerts</h3>
+                <p>
+                    Alerts are available in five variations i.e Primary Alert, Secondary
+                    Alert, Successful Alert, Danger Alert and Warning Alert. Each Alert
+                    Variation has to working types simple and closeble. To use the Alert
+                    component, you have to add alert class, followed by the variation
+                    eg:-<strong>alert, alert-closeble, alert primary, alert-closeble
+                        warning.</strong>
+                    Use different utility classes according to your needs.
+                </p>
+                <!-- Standard Alerts  -->
+                <div class="wrapper">
+                    <div class="alert">
+                        <i class="fas fa-exclamation"></i><span>A Simple alert with icon!!!!</span>
+                    </div>
+                    <div class="alert success">
+                        <i class="fas fa-check-circle"></i><span>A Success alert message!!!!</span>
+                    </div>
+                    <div class="alert danger">
+                        <i class="fas fa-exclamation-circle"></i><span>A Danger alert message!!!!</span>
+                    </div>
+                    <div class="alert warning">
+                        <i class="fas fa-exclamation-triangle"></i><span>A Warning alert message!!!!</span>
+                    </div>
+                    <div class="alert secondary">
+                        <i class="fas fa-exclamation"></i><span>An Alert with a text link-<a href="#">check it out!</a></span>
+                    </div>
+                </div>
+        
+                <!-- Alerts with Close Button -->
+                <div class="wrapper">
+                <div class="alert-closeble">
+                    <i class="fas fa-exclamation"></i><span>A Simple alert with icon!!!!</span><button class="close">
+                        <i class="far fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="alert-closeble success">
+                    <i class="fas fa-check-circle"></i><span>A Success alert message!!!!</span><button class="close">
+                        <i class="far fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="alert-closeble danger">
+                    <i class="fas fa-exclamation-circle"></i><span>A Danger alert message!!!!</span><button class="close">
+                        <i class="far fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="alert-closeble warning">
+                    <i class="fas fa-exclamation-triangle"></i><span>A Warning alert message!!!!</span><button class="close">
+                        <i class="far fa-times-circle"></i>
+                    </button>
+                </div>
+                <div class="alert-closeble secondary">
+                    <i class="fas fa-exclamation"></i><span>An Alert with a text link-<a href="#">check it
+                            out!</a></span><button class="close">
+                        <i class="far fa-times-circle"></i>
+                    </button>
+                </div>
+                </div>
+            </div> 
+        </section>
     </div>
+
+
+</div>
+<script src="./Components/alert/alert.js"></script>
 </body>
 
 </html>
