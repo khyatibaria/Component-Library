@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
 @import url("./alert/alert.css");
-/* @import url("./avatar/avatar.css");
+@import url("./avatar/avatar.css");
+@import url("./image/image.css");
 @import url("./badge/badge.css");
 @import url("./button/button.css");
-@import url("./image/image.css");
-@import url("./input/input.css");
-@import url("./typography/typography.css");
-@import url("./modal/modal.css");
 @import url("./navigation/navigation.css");
-@import url("./toast/toast.css"); */
-@import url("./variables.css");
+@import url("./input/input.css");
+@import url("./card/card.css");
+/* @import url("./typography/typography.css"); */
+
+/* @import url("./modal/modal.css");
+
+@import url("./toast/toast.css");  */
 
 html {
   box-sizing: border-box;
@@ -29,80 +31,4 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
   background-color: var(--primary-color);
   border-radius: var(--radius);
-}
-
-:root {
-  --primary-color: #54bab9;
-  --secondary-color: #6b39ff;
-  --success-color: #42ff85;
-  --danger-color: #ef4b4b;
-  --warning-color: #f5b314;
-  --primary-bgcolor: #b5deff;
-  --secondary-bgcolor: #cab8ff;
-  --success-bgcolor: #c1ffd7;
-  --danger-bgcolor: #f9c0c0;
-  --warning-bgcolor: #fcffa6;
-  --white: #ffffff;
-  --black: #000000;
-  --grey: #6c7780;
-  --p-0: 0px;
-  --m-0: 0px;
-  --p-1: 0.25rem;
-  --m-1: 0.25rem;
-  --p-2: 0.5rem;
-  --m-2: 0.5rem;
-  --p-3: 0.75rem;
-  --m-3: 0.75rem;
-  --p-4: 1rem;
-  --m-4: 1rem;
-  --p-5: 1.25rem;
-  --m-5: 1.25rem;
-  --p-6: 1.5rem;
-  --m-6: 1.5rem;
-  --p-7: 1.75rem;
-  --m-7: 1.75rem;
-  --p-8: 2rem;
-  --m-8: 2rem;
-  --fontSize-0: 0.5rem;
-  --fontSize-1: 1rem;
-  --fontSize-2: 1.25rem;
-  --fontSize-3: 1.5rem;
-  --fontSize-4: 1.75rem;
-  --fontSize-5: 2rem;
-  --radius: 0.25rem;
-}
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-areas:
-    "nav nav nav nav nav"
-    "sidebar main main main main"
-    "sidebar main main main main";
-}
-
-/* _______________________________________________SideBar___________________________________________________ */
-
-/* _______________________________________________Main___________________________________________________ */
-.main {
-  grid-area: main;
-  overflow: hidden auto;
-}
-
-.component {
-  margin: 1rem;
-  padding: 0.75rem;
-  text-align: justify;
-  line-height: 1.5;
-}
-
-.component-head,
-.component-subhead {
-  line-height: 2.5;
-}
-
-.wrapper {
-  margin: 1rem;
-  padding: 1rem;
-  border: 2px solid var(--grey);
 }
