@@ -5,7 +5,7 @@
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.5rem;
-  border: 3px solid var(--secondary-color);
+  border: 3px solid var(--primary-color);
 }
 
 .input {
@@ -19,26 +19,26 @@
   outline: none;
 }
 
-.input > label {
+.input-label {
   position: absolute;
   top: -16px;
   left: 16px;
   margin: 0.25rem;
   padding: 2px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-weight: 600;
   background-color: var(--white);
 }
 
-.error > label {
+.error-label {
   color: var(--danger-color);
 }
-.error {
+.error-border {
   border: 3px solid var(--danger-color);
 }
-.success > label {
+.success-label {
   color: var(--success-color);
 }
-.success {
+.success-border {
   border: 3px solid var(--success-color);
 }
