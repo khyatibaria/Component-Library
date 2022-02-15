@@ -17,7 +17,7 @@
   margin: 0px;
   padding: 0px;
 }
-.badge {
+.card-badge {
   position: absolute;
   top: 0.5rem;
   left: 0;
@@ -33,6 +33,7 @@
   top: 0.5rem;
   right: 0.5rem;
   z-index: 2;
+  cursor: pointer;
 }
 
 .card-image {
@@ -58,7 +59,7 @@
 }
 
 .card-title {
-  line-height: 0.2;
+  line-height: 1.2;
 }
 .icon-button {
   cursor: pointer;
@@ -88,6 +89,7 @@
   background-color: var(--white);
   font-weight: 600;
   border: none;
+  margin: 0.5rem;
   padding: 0.5rem;
   font-size: 1rem;
   outline: none;
@@ -190,4 +192,19 @@
 
 .text-card > .card-head {
   display: none;
+}
+
+.text-card > .card-body {
+  padding: 1rem;
+}
+
+.text-card > .card-text {
+  font-size: 0.75rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.price {
+  text-align: center;
+  /* margin: 0.5rem; */
 }
