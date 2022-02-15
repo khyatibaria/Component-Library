@@ -1,0 +1,48 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "nav nav nav nav nav"
+    "sidebar main main main main"
+    "sidebar main main main main";
+}
+
+.main {
+  grid-area: main;
+  overflow: hidden auto;
+}
+
+.component {
+  margin: 1rem;
+  padding: 0.75rem;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.component-head,
+.component-subhead {
+  line-height: 2.5;
+}
+
+.wrapper {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--grey);
+}
+
+.component-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid var(--grey);
+}
+
+.img-container {
+  max-width: 12rem;
+  max-height: 12rem;
+  margin: 1rem;
+}
