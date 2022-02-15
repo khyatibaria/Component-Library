@@ -17,20 +17,20 @@ span {
   font-size: var(--fontSize);
   border-radius: var(--radius);
 }
-.secondary {
+.alert-secondary {
   color: var(--secondary-color);
   background-color: var(--secondary-bgcolor);
 }
 
-.success {
+.alert-success {
   color: var(--success-color);
   background-color: var(--success-bgcolor);
 }
-.danger {
+.alert-danger {
   color: var(--danger-color);
   background-color: var(--danger-bgcolor);
 }
-.warning {
+.alert-warning {
   color: var(--warning-color);
   background-color: var(--warning-bgcolor);
 }
