@@ -104,10 +104,10 @@
                 <p>
                     Alerts are available in five variations i.e Primary Alert, Secondary
                     Alert, Successful Alert, Danger Alert and Warning Alert. Each Alert
-                    Variation has to working types simple and closeble. To use the Alert
+                    Variation has Standard and closeble type. To use the Alert
                     component, you have to add alert class, followed by the variation
-                    eg:-<strong>alert, alert-closeble, alert primary, alert-closeble
-                        warning.</strong>
+                    eg:-<strong>alert, alert-closeble, alert-primary, alert-closeble
+                        alert-warning.</strong>
                     Use different utility classes according to your needs.
                 </p>
                 <!-- Standard Alerts  -->
@@ -168,7 +168,7 @@
                 <h3 class="component-subhead">Examples of Avatar</h3>
                 <p>Avatar is available in 2 variations and 4 different sizes.To use avatar component just include class name avatar.
                 Avatars can be customised to 4 different (small, medium, large) sizes based on your requirements.To style avatar sizes use      
-                class sm,md,xl.eg:-<strong>avatar sm, avatar md, avatar xl</strong>.</p>
+                class sm,md,xl.eg:-<strong>avatar-sm, avatar-md, avatar-xl</strong>.</p>
                 <strong>Note:- Add responsive image class to img element in avatar.</strong>
                 <div class="component-container">
                     <figure class="avatar">
@@ -200,7 +200,9 @@
                 <h3 class="component-subhead">Examples of Badge</h3>
                 <p>Badge Component has 2 variations.Badges can be used with Avatars to display status information of the user.Different colors 
                 green color badge shows the online status of user,and gray color badge shows the user is offline/inactive. 
-               Number Badges can be used to show cart or notification count.</p>
+               Number Badges can be used to show cart or notification count.
+                To use Badge Component add class badge along with badge-count and badge-active.
+            </p>
                 <div class="component-container">
                     <figure class="avatar badge">
                         <img class="img-responsive img-rounded" src="./Components/assets/avatar.svg" />
@@ -643,7 +645,7 @@
                 <h3 class="component-subhead">Examples of Modal</h3>
                 <p></p>
                 <div class="wrapper">
-                    <!-- <dialog class="modal" open>
+                    <dialog class="modal" open>
                         <div class="modalcloseIcon">
                             <i class="fas fa-times"></i>
                         </div>
@@ -654,7 +656,7 @@
                         </p>
                         <button class="btn bg-danger">Close</button>
                         <button class="btn bg-primary">Shop Now</button>
-                    </dialog> -->
+                    </dialog>
                 </div>
             </div>
         </section>
@@ -665,7 +667,20 @@
                 <p></p>
                 <h3 class="component-subhead">Examples of Toast</h3>
                 <p></p>
-                <div class="container"></div>
+                <div class="wrapper">
+                    <div class="toast">
+                        Can't send photo. Retry in 5 seconds.
+                        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <h3 class="component-subhead">Examples of Toast</h3>
+                <div class="wrapper">
+                    <button class="btn bg-primary" id="toastBtn">Open</button>
+                    <div class="toast visibility" id="toast-closeable">
+                        Submitted Successfully.
+                        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -673,6 +688,8 @@
 
 </div>
 <script src="./Components/alert/alert.js"></script>
+<script src="./Components/modal/modal.js"></script>
+<script src="./Components/toast/toast.js"></script>
 </body>
 
 </html>
