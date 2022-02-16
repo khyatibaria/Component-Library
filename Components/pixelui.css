@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url("../docs-css/variable.css");
 @import url("./alert/alert.css");
 @import url("./avatar/avatar.css");
 @import url("./image/image.css");
@@ -9,9 +10,9 @@
 @import url("./card/card.css");
 /* @import url("./typography/typography.css"); */
 
-/* @import url("./modal/modal.css");
+@import url("./modal/modal.css");
 
-@import url("./toast/toast.css");  */
+@import url("./toast/toast.css");
 
 html {
   box-sizing: border-box;
