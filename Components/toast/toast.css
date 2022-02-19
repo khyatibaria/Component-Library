@@ -18,16 +18,12 @@
   cursor: pointer;
 }
 
-/* #toastBtn {
-  margin-top: 5rem;
-} */
-
 #toast-closeable {
   position: absolute;
-  background-color: var(--success-color);
   top: 1rem;
   right: 1rem;
-  z-index: 5;
+  z-index: 30;
+  background-color: var(--success-color);
 }
 .visibility {
   display: none;
