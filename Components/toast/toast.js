@@ -1,4 +1,4 @@
-const openBtn = document.querySelector('#toastBtn');
+const openBtn = document.querySelector('#toast-demoBtn');
 const openToast = document.querySelector('#toast-closeable');
 
 openBtn.addEventListener('click', () => {
