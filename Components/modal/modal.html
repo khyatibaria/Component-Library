@@ -6,7 +6,7 @@
     <meta name="description" content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces" />
     <title>Modal Component</title>
     <link rel="stylesheet" type="text/css" href="./modal.css" />
-    <link rel="stylesheet" type="text/css" href="../variables.css" />
+    <link rel="stylesheet" type="text/css" href="../../docs-css/variable.css" />
     <script src="https://kit.fontawesome.com/99b4ab4b7a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -19,23 +19,23 @@
             Buy and 3 novels at just 999/-
             For Limited Period Only.
         </p>
-        <button class="btn bg-danger">Close</button>
-        <button class="btn bg-primary">Shop Now</button>
+        <button class="modal-closeBtn">Close</button>
+        <button class="modal-actionBtn">Shop Now</button>
     </dialog>
 
     <!-- Opening Modal -->
-    <button class="btn bg-primary" id="modalBtn">Open</button>
+    <button class="modal-actionBtn" id="modalOpenBtn">Open</button>
     <dialog class="modal" id="modalCloseble">
         <div class="modalcloseIcon" id="iconClose">
             <i class="fas fa-times"></i>
         </div>
-        <h3>Shop with exclusive offers</h3>
+        <h3>Shop with exclusive Discount Offers</h3>
         <p>
-            White and blue printed playsuit with knot detail, has a shirt collar,
-            sleeveless, button closures
+            Buy and 3 novels at just 999/-
+            For Limited Period Only.
         </p>
-        <button class="btn bg-danger" id="modalCloseBtn">Close</button>
-        <button class="btn bg-primary" id="modalActionBtn">Shop Now</button>
+        <button class="modal-closeBtn" id="modalBtn">Close</button>
+        <button class="modal-actionBtn" id="modalActionBtn">Shop Now</button>
     </dialog>
     <script src="./modal.js"></script>
 </body>
