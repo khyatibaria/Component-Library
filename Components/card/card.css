@@ -13,10 +13,7 @@
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.card-head-max {
-  margin: 0px;
-  padding: 0px;
-}
+
 .card-badge {
   position: absolute;
   top: 0.5rem;
@@ -43,13 +40,19 @@
   height: auto;
   align-self: center;
 }
-
-.card-image-max {
+.card-maxHead {
+  margin: 0px;
+  padding: 0px;
+}
+.card-maxImg {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
-  max-width: 14rem;
-  height: auto;
+  width: 15rem;
+  height: 20rem;
   align-self: center;
+}
+.card-maxTitle {
+  margin: 0.75rem;
 }
 .card-body {
   display: flex;
@@ -61,7 +64,7 @@
 .card-title {
   line-height: 1.2;
 }
-.icon-button {
+.card-iconBtn {
   cursor: pointer;
   background-color: transparent;
   border-radius: var(--radius);
@@ -69,7 +72,7 @@
   color: var(--black);
 }
 
-.icon-button:hover {
+.card-iconBtn:hover {
   border-radius: 50%;
   color: var(--danger-color);
 }
@@ -101,13 +104,6 @@
   background-color: var(--warning-bgcolor);
 }
 
-.card-full-image {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  max-width: 14rem;
-  height: auto;
-  align-self: center;
-}
 /* Horizontal Card */
 .horizontal-card {
   position: relative;
@@ -120,11 +116,11 @@
   border-radius: var(--radius);
   margin: 0.5rem;
 }
-.horizontal-card-head {
+.horizontal-cardHead {
   margin: 0.5rem;
   padding: 0.5rem;
 }
-.horizontal-card-img {
+.horizontal-cardImg {
   max-width: 8rem;
   max-height: 10rem;
   border-radius: var(--radius);
@@ -136,35 +132,36 @@
   justify-content: space-evenly;
   align-items: baseline;
 }
-.horizontal-card-body {
+.horizontal-cardBody {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: baseline;
-  margin: 0.25rem;
+  align-items: center;
+  margin: 0.5rem;
 }
 
-.horizontal-card-body > .icon-button {
+.horizontal-cardBody > .card-iconBtn {
   padding: 0.75rem;
   align-self: center;
 }
 
-.horizontal-card-text {
+.horizontal-cardText {
   line-height: 1.2;
   font-size: 1.5rem;
   font-weight: 600;
+  margin: 0.5rem;
 }
 
 .shadow {
   box-shadow: 8px 8px 10px var(--grey);
 }
 
-.overlay {
+.card-overlay {
   position: absolute;
   background-color: rgba(119, 119, 119, 0.5);
-  min-width: 15rem;
-  min-height: 31rem;
+  width: 15rem;
+  height: 31rem;
   z-index: 5;
 }
 
