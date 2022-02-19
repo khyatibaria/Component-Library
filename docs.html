@@ -403,8 +403,8 @@
                 <h1 class="component-head">Card</h1>
                 <p></p>
 
-                <h3 class="component-subhead">Examples of Cards</h3>
-                <div class="component-container">
+                <h3 class="component-subhead">Example of Cards</h3>
+                <div class="card-wrapper">
                     <div class="card">
                         <div class="card-head">
                             <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
@@ -414,54 +414,7 @@
                                 <h3>The Alchemist</h3>
                                 <small>By Panlo Coelho</small>
                             </div>
-                            <button class="icon-button" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                        </div>
-                        <div class="card-text">Rs.899/-</div>
-                        <div class="card-footer">
-                            <button class="card-button">
-                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                                <span>Add to Cart</span>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-head-max">
-                            <img class="card-image-max" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h3>The Alchemist</h3>
-                                <small>By Panlo Coelho</small>
-                            </div>
-                            <button class="icon-button" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                        </div>
-                        <div class="card-text">Rs.899/-</div>
-                        <div class="card-footer">
-                            <button class="card-button">
-                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <h3 class="component-subhead">Examples of Card with Badge</h3>
-                <div class="component-container">
-                    <div class="card">
-                        <div class="card-badge">BestSeller</div>
-                        <div class="card-head">
-                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">
-                                <h3>The Alchemist</h3>
-                                <small>By Panlo Coelho</small>
-                            </div>
-                            <button class="icon-button" title="Add to favorites">
+                            <button class="card-iconBtn" title="Add to favorites">
                                 <i class="fas fa-heart fa-2x"></i>
                             </button>
                         </div>
@@ -476,16 +429,43 @@
 
                     <div class="card">
                         <div class="card-badge">BestSeller</div>
-                        <div class="close"><i class="fas fa-times"></i></div>
-                        <div class="card-head-max">
-                            <img class="card-image-max" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                        <div class="card-close"><i class="fas fa-times"></i></div>
+                        <div class="card-maxHead">
+                            <img class="card-maxImg" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                        </div>
+                        <div class="card-body">
+                            <div class="card-maxTitle">
+                                <h3>The Alchemist</h3>
+                                <small>By Panlo Coelho</small>
+                            </div>
+                            <button class="card-iconBtn --m-4" title="Add to favorites">
+                                <i class="fas fa-heart fa-2x"></i>
+                            </button>
+                        </div>
+                        <div class="card-text">Rs.899/-</div>
+                        <div class="card-footer">
+                            <button class="card-button --m-4">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <h3 class="component-subhead">Card with Badge and Close Button</h3>
+                <div class="component-container">
+                    <div class="card">
+                        <div class="card-badge">BestSeller</div>
+                        <div class="card-head">
+                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
                         </div>
                         <div class="card-body">
                             <div class="card-title">
                                 <h3>The Alchemist</h3>
                                 <small>By Panlo Coelho</small>
                             </div>
-                            <button class="icon-button" title="Add to favorites">
+                            <button class="card-iconBtn" title="Add to favorites">
                                 <i class="fas fa-heart fa-2x"></i>
                             </button>
                         </div>
@@ -498,12 +478,36 @@
                         </div>
                     </div>
 
+                    <div class="card">
+                        <div class="card-badge">BestSeller</div>
+                        <div class="card-close"><i class="fas fa-times"></i></div>
+                        <div class="card-head">
+                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>The Alchemist</h3>
+                                <small>By Panlo Coelho</small>
+                            </div>
+                            <button class="card-iconBtn" title="Add to favorites">
+                                <i class="fas fa-heart fa-2x"></i>
+                            </button>
+                        </div>
+                        <div class="card-text">Rs.899/-</div>
+                        <div class="card-footer">
+                            <button class="card-button">
+                                <i class="fa fa-cart-plus" aria-hidden="true"></i>
+                                <span>Add to Cart</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
-                <h3 class="component-subhead">Example of Card with Shadow</h3>
+
+                <h3 class="component-subhead">Card with Shadow</h3>
                 <div class="wrapper">
                     <div class="card shadow">
                         <div class="card-badge">BestSeller</div>
-                        <div class="close"><i class="fas fa-times"></i></div>
+                        <div class="card-close"><i class="fas fa-times"></i></div>
                         <div class="card-head">
                             <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
                         </div>
@@ -512,7 +516,7 @@
                                 <h3>The Alchemist</h3>
                                 <small>By Panlo Coelho</small>
                             </div>
-                            <button class="icon-button" title="Add to favorites">
+                            <button class="card-iconBtn" title="Add to favorites">
                                 <i class="fas fa-heart fa-2x"></i>
                             </button>
                         </div>
@@ -526,16 +530,16 @@
                     </div>
                 </div>
 
-                <h3 class="component-subhead">Example of Card with Text Overlay</h3>
+                <h3 class="component-subhead">Card with Text Overlay</h3>
                 <div class="wrapper">
                     <div class="card">
-                        <div class="overlay">
+                        <div class="card-overlay">
                             <div class="overlay-text">
                                 Out of Stocks
                             </div>
                         </div>
                         <div class="card-badge">BestSeller</div>
-                        <div class="close"><i class="fas fa-times"></i></div>
+                        <div class="card-close"><i class="fas fa-times"></i></div>
                         <div class="card-head">
                             <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
                         </div>
@@ -544,7 +548,7 @@
                                 <h3>The Alchemist</h3>
                                 <small>By Panlo Coelho</small>
                             </div>
-                            <button class="icon-button" title="Add to favorites">
+                            <button class="card-iconBtn" title="Add to favorites">
                                 <i class="fas fa-heart fa-2x"></i>
                             </button>
                         </div>
@@ -557,27 +561,28 @@
                         </div>
                     </div>
                 </div>
-                <h3 class="component-subhead">Example of Horizontal Card</h3>
+
+                <h3 class="component-subhead">Horizontal Card</h3>
                 <div class="wrapper">
                     <div class="horizontal-card">
                         <div class="card-badge">BestSeller</div>
-                        <div class="close"><i class="fas fa-times"></i></div>
-                        <div class="horizontal-card-head">
-                            <img class="horizontal-card-img" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                        <div class="card-close"><i class="fas fa-times"></i></div>
+                        <div class="horizontal-cardHead">
+                            <img class="horizontal-cardImg" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
                                 alt="media" />
                         </div>
                         <div class="horizontal">
-                            <div class="horizontal-card-body">
-                                <div class="card-title">
+                            <div class="horizontal-cardBody">
+                                <div class="cardTitle">
                                     <h3>The Alchemist</h3>
                                     <small>By Panlo Coelho</small>
                                 </div>
-                                <button class="icon-button" title="Add to favorites">
+                                <button class="card-iconBtn" title="Add to favorites">
                                     <i class="fas fa-heart fa-2x"></i>
                                 </button>
                             </div>
-                            <div class="horizontal-card-text">Rs.899/-</div>
-                            <div class="card-horizontal-footer">
+                            <div class="horizontal-cardText">Rs.899/-</div>
+                            <div class="card-horizontalFooter">
                                 <button class="card-button">
                                     <i class="fa fa-cart-plus" aria-hidden="true"></i>
                                     <span>Add to Cart</span>
@@ -587,7 +592,7 @@
                     </div>
                 </div>
 
-                <h3 class="component-subhead">Example of Text only Card</h3>
+                <h3 class="component-subhead">Text only Card</h3>
                 <div class="wrapper">
                     <div class="text-card">
                         <div class="card-head">
@@ -598,13 +603,12 @@
                                 <h3>The Alchemist</h3>
                                 <small>By Panlo Coelho</small>
                             </div>
-                            <button class="icon-button" title="Add to favorites">
+                            <button class="card-iconBtn" title="Add to favorites">
                                 <i class="fas fa-heart fa-2x"></i>
                             </button>
                         </div>
                         <div class="card-text">
-                            The Alchemist is a novel by Paulo Coelho,The Alchemist follows a young Andalusian shepherd in his journey to
-                            the
+                            The Alchemist is a novel by Paulo Coelho,The Alchemist follows a young Andalusian shepherd in his journey to the
                             pyramids of Egypt,
                             after having a recurring dream of finding a treasure there.
                         </div>
