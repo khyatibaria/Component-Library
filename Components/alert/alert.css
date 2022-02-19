@@ -35,7 +35,7 @@ span {
   background-color: var(--warning-bgcolor);
 }
 
-.close {
+.alert-close {
   cursor: pointer;
   font-size: var(--fontSize);
   float: right;
