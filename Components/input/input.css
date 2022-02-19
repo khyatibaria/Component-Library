@@ -1,7 +1,9 @@
+.input-box{
+    max-width: max-content;
+}
 .input-group {
   position: relative;
   background-color: var(--white);
-  max-width: max-content;
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.5rem;

@@ -101,7 +101,7 @@
 }
 
 .card-button:hover {
-  background-color: var(--warning-bgcolor);
+  background-color: var(--warning-color);
 }
 
 /* Horizontal Card */
