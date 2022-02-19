@@ -1,17 +1,17 @@
 const modal = document.querySelector('#modalCloseble');
+const btn = document.querySelector('#modalOpenBtn');
 const modalBtn = document.querySelector('#modalBtn');
-const modalCloseBtn = document.querySelector('#modalCloseBtn');
 const closeIconBtn = document.querySelector('#iconClose');
 
-modalBtn.addEventListener('click', () => {
-  console.log('hey');
+btn.addEventListener('click', () => {
   modal.show();
 });
 
-modalCloseBtn.addEventListener('click', () => {
+modalBtn.addEventListener('click', () => {
   modal.close();
 });
 
 closeIconBtn.addEventListener('click', () => {
+    console.log("close")
   modal.close();
 });
