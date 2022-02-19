@@ -28,7 +28,7 @@
   background-color: var(--danger-color);
   border-radius: var(--radius);
 }
-.close {
+.card-close {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
@@ -47,7 +47,7 @@
 .card-image-max {
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
-  max-width: 15rem;
+  max-width: 14rem;
   height: auto;
   align-self: center;
 }
