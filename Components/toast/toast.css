@@ -5,8 +5,9 @@
   padding: 0.5rem;
   border-radius: var(--radius);
   font-size: 1.25rem;
+  z-index: 20;
 }
-.btn {
+.tost-btn {
   display: inline-block;
   outline: none;
   background-color: var(--warning-color);
