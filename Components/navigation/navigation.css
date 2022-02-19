@@ -69,3 +69,8 @@
   color: var(--white);
   font-size: var(--fontSize-2);
 }
+
+.nav-img {
+  width: 2rem;
+  height: 2rem;
+}
