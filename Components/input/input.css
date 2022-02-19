@@ -1,7 +1,7 @@
 .input-group {
   position: relative;
   background-color: var(--white);
-  /* max-width: max-content; */
+  width: 100%;
   padding: 1rem;
   margin: 1rem;
   border-radius: 0.5rem;
