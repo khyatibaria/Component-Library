@@ -33,11 +33,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: #d4d4d4; */
   border: 2px solid var(--white);
   border-radius: var(--radius);
   width: 18rem;
   height: 2rem;
+  margin-right: 1rem;
 }
 
 .search-icon {
