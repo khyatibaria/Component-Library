@@ -1,0 +1,16 @@
+.rating-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0px;
+  padding: 0px;
+}
+.star-active {
+  color: var(--warning-color);
+  cursor: pointer;
+}
+
+.star-inactive {
+  color: var(--grey);
+  cursor: pointer;
+}
