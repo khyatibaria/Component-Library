@@ -6,7 +6,11 @@
   font-size: var(--fontSize);
   border-radius: var(--radius);
 }
-span {
+.alert > span {
+  margin: 1rem;
+}
+
+.alert-closeble > span {
   margin: 1rem;
 }
 .alert-closeble {
