@@ -43,22 +43,26 @@
   margin: 1rem;
   padding: 1rem;
   border: 2px solid var(--grey);
+  background-color: #f5f5f5;
 }
 
 .card-wrapper {
   align-items: center;
+  background-color: #f5f5f5;
 }
 
 .code-snippet {
   margin: 1rem;
   padding: 1rem;
   border: 2px solid var(--grey);
+  background-color: #f5f5f5;
 }
 
 .img-container {
   max-width: 12rem;
   max-height: 12rem;
   margin: 1rem;
+  background-color: #f5f5f5;
 }
 
 .toast-wrapper {

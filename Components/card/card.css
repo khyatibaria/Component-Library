@@ -2,16 +2,44 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-evenly;
   background-color: var(--primary-bgcolor);
   border-radius: var(--radius);
-  max-width: 15rem;
-  max-height: 32rem;
+  width: 14rem;
+  height: 26rem;
   margin: 1rem;
+  padding: 1rem;
 }
-.card-head {
-  margin: 0.5rem;
-  padding: 0.5rem;
+.full-media {
+  padding: 0px;
+  margin: 0px;
+}
+.card-image {
+  align-self: center;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  width: 14rem;
+  height: 16rem;
+}
+.full-image {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  width: 14rem;
+  height: 16rem;
+}
+.wishlist-btn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.25rem;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: var(--radius);
+  background-color: transparent;
+}
+.wishlist-btn:hover {
+  color: var(--danger-color);
 }
 
 .card-badge {
@@ -22,153 +50,80 @@
   padding: 0.25rem 0.75rem;
   font-weight: 600;
   color: white;
-  background-color: var(--danger-color);
+  background-color: red;
   border-radius: var(--radius);
 }
+
 .card-close {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
   z-index: 2;
-  cursor: pointer;
-}
-
-.card-image {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  max-width: 13rem;
-  height: auto;
-  align-self: center;
-}
-.card-maxHead {
-  margin: 0px;
-  padding: 0px;
-}
-.card-maxImg {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  width: 15rem;
-  height: 20rem;
-  align-self: center;
-}
-.card-maxTitle {
-  margin: 0.75rem;
 }
 .card-body {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-around;
+  margin: 0.5rem;
 }
 
 .card-title {
-  line-height: 1.2;
-}
-.card-iconBtn {
-  cursor: pointer;
-  background-color: transparent;
-  border-radius: var(--radius);
-  border: none;
-  color: var(--black);
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
-.card-iconBtn:hover {
-  border-radius: 50%;
-  color: var(--danger-color);
+.card-subtitle {
+  font-size: 1rem;
 }
+
 .card-text {
   font-size: 1.25rem;
   font-weight: 600;
-  text-align: center;
-  margin: 0.75rem 0.25rem;
-  padding: 0.25rem;
+  padding: 0.5rem;
 }
-.card-footer {
-  align-self: center;
-}
+
 .card-button {
   display: inline-block;
   cursor: pointer;
   background-color: var(--white);
   font-weight: 600;
   border: none;
-  margin: 0.5rem;
   padding: 0.5rem;
   font-size: 1rem;
   outline: none;
   border-radius: var(--radius);
-  margin-bottom: 0.75rem;
 }
 
 .card-button:hover {
-  background-color: var(--warning-color);
+  background-color: var(--warning-bgcolor);
 }
-
-/* Horizontal Card */
-.horizontal-card {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  width: max-content;
-  background-color: var(--primary-bgcolor);
-  border-radius: var(--radius);
+.full-mediaBody {
   margin: 0.5rem;
 }
-.horizontal-cardHead {
-  margin: 0.5rem;
-  padding: 0.5rem;
-}
-.horizontal-cardImg {
-  max-width: 8rem;
-  max-height: 10rem;
-  border-radius: var(--radius);
-}
-.horizontal {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: baseline;
-}
-.horizontal-cardBody {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 0.5rem;
-}
-
-.horizontal-cardBody > .card-iconBtn {
-  padding: 0.75rem;
-  align-self: center;
-}
-
-.horizontal-cardText {
-  line-height: 1.2;
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin: 0.5rem;
-}
-
 .shadow {
   box-shadow: 8px 8px 10px var(--grey);
 }
 
-.card-overlay {
-  position: absolute;
-  background-color: rgba(119, 119, 119, 0.5);
+.card-fullimage {
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
   width: 15rem;
-  height: 31rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(119, 119, 119, 0.5);
   z-index: 5;
 }
 
 .overlay-text {
   position: absolute;
-  top: 14rem;
-  left: 2.5rem;
+  top: 50%;
+  left: 15%;
   font-size: 1.5rem;
   font-weight: 900;
   padding: 0.5rem;
@@ -179,11 +134,10 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: space-around;
   background-color: var(--primary-bgcolor);
   border-radius: var(--radius);
-  max-width: 15rem;
-  max-height: 32rem;
+  width: 15rem;
+  height: max-content;
   margin: 1rem;
 }
 
@@ -191,17 +145,102 @@
   display: none;
 }
 
-.text-card > .card-body {
-  padding: 1rem;
+.horizontal-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 30rem;
+  height: 16rem;
+  margin: 0.5rem;
+  border-radius: var(--radius);
+  background-color: var(--primary-bgcolor);
 }
 
-.text-card > .card-text {
+.horizontal-cardImg {
+  max-width: 12rem;
+  max-height: 16rem;
+  border-radius: var(--radius);
+}
+
+.card-badge {
+  position: absolute;
+  top: 0.5rem;
+  left: 0;
   font-size: 0.75rem;
-  text-align: center;
+  padding: 0.25rem 0.75rem;
+  font-weight: 600;
+  color: white;
+  background-color: red;
+  border-radius: var(--radius);
+}
+.card-close {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  z-index: 2;
+}
+
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.card-subtitle {
+  font-size: 1rem;
+}
+.horizontal-cardBody {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 0.5rem;
   margin: 0.5rem;
 }
 
-.price {
-  text-align: center;
-  /* margin: 0.5rem; */
+.horizontal-cardText {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.horizontal-cardQuantity {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1rem;
+}
+.card-input {
+  outline: none;
+  border: none;
+  width: 10%;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 0.25rem;
+}
+.quantity-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  margin: 0.25rem;
+}
+.horizontal-cardBtn {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  background-color: white;
+  font-weight: 600;
+  border: none;
+  padding: 0.5rem;
+  margin: 0.25rem;
+  font-size: 1rem;
+  outline: none;
+  border-radius: var(--radius);
+}
+
+.horizontal-cardBtn:hover {
+  background-color: var(--warning-bgcolor);
 }
