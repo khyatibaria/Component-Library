@@ -6,26 +6,24 @@
   font-size: var(--fontSize);
   border-radius: var(--radius);
 }
-.alert > span {
-  margin: 1rem;
-}
-
-.alert-closeble > span {
-  margin: 1rem;
+.alert-text {
+  margin: 0 0.5rem;
 }
 .alert-closeble {
-  background-color: var(--primary-bgcolor);
-  color: var(--primary-color);
-  padding: var(--p-4);
-  margin: var(--p-4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.alert-close {
+  cursor: pointer;
   font-size: var(--fontSize);
-  border-radius: var(--radius);
+  background-color: transparent;
+  border: none;
 }
 .alert-secondary {
   color: var(--secondary-color);
   background-color: var(--secondary-bgcolor);
 }
-
 .alert-success {
   color: var(--success-color);
   background-color: var(--success-bgcolor);
@@ -37,20 +35,4 @@
 .alert-warning {
   color: var(--warning-color);
   background-color: var(--warning-bgcolor);
-}
-
-.alert-close {
-  cursor: pointer;
-  font-size: var(--fontSize);
-  float: right;
-  background-color: transparent;
-  border: none;
-}
-
-.alert > a {
-  color: var(--danger-color);
-}
-
-.alert-closeble > a {
-  color: var(--danger-color);
 }
