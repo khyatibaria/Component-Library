@@ -1,28 +1,29 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Khyati Baria" />
-    <meta name="description" content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces" />
+    <meta
+      name="description"
+      content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces"
+    />
     <title>Input Component</title>
     <link href="../../docs-css/variable.css" rel="stylesheet" type="text/css" />
     <link href="./input.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
-    <div class="input-box">
-        <div class="input-group">
-            <input type="text" id="primary-input" class="input" />
-            <label class="input-label" for="primary-input">Input</label>
-        </div>
-        <div class="input-group error-border">
-            <input type="text" id="primary-input" class="input" />
-            <label for="primary-input" class="input-label error-label">Input</label>
-        </div>
-        <div class="input-group success-border">
-            <input type="text" id="primary-input" class="input" />
-            <label for="primary-input" class="input-label success-label">Input</label>
-        </div>
-    </div>
-</body>
+  </head>
+  <body>
+    <fieldset class="fieldset">
+      <legend class="legend">Label</legend>
+      <input class="input" />
+    </fieldset>
+    <fieldset class="fieldset error-border">
+      <legend class="legend error">Label</legend>
+      <input class="input" />
+    </fieldset>
+    <fieldset class="fieldset success-border">
+      <legend class="legend success">Label</legend>
+      <input class="input" />
+    </fieldset>
+  </body>
 </html>
