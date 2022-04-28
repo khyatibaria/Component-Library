@@ -3,63 +3,56 @@
   outline: none;
   background-color: transparent;
   margin: 1rem;
-  padding: 0.5rem 1rem;
-  color: var(--white);
+  padding: 0.5rem 0.85rem;
   font-size: 1rem;
+  font-weight: bold;
   border: none;
   border-radius: var(--radius);
   cursor: pointer;
 }
-.hover:hover {
-  box-shadow: 5px 5px 5px var(--black);
+.btn-hover:hover {
+  box-shadow: 3px 3px 6px var(--black);
 }
 /* Outline Button Styles */
 .outline-primary {
-  background-color: var(--white);
   color: var(--primary-color);
   border: solid 2px var(--primary-color);
 }
 .outline-primary:hover {
-  color: var(--black);
   background-color: var(--primary-bgcolor);
+  box-shadow: 3px 3px 6px var(--black);
 }
 .outline-secondary {
-  background-color: var(--white);
   color: var(--secondary-color);
   border: solid 2px var(--secondary-color);
 }
 .outline-secondary:hover {
-  color: var(--black);
   background-color: var(--secondary-bgcolor);
+  box-shadow: 3px 3px 6px var(--black);
 }
 .outline-success {
   color: var(--success-color);
   border: solid 2px var(--success-color);
-  background-color: var(--white);
 }
 .outline-success:hover {
-  color: var(--black);
   background-color: var(--success-bgcolor);
+    box-shadow: 3px 3px 6px var(--black);
 }
-
 .outline-warning {
   color: var(--warning-color);
   border: solid 2px var(--warning-color);
-  background-color: var(--white);
 }
 .outline-warning:hover {
-  color: var(--black);
   background-color: var(--warning-bgcolor);
+  box-shadow: 3px 3px 6px var(--black);
 }
-
 .outline-danger {
   color: var(--danger-color);
   border: solid 2px var(--danger-color);
-  background-color: var(--white);
 }
-.outline-danger:hover {
-  color: var(--black);
+.outline-danger:hover { 
   background-color: var(--danger-bgcolor);
+  box-shadow: 3px 3px 6px var(--black);
 }
 
 /* Text Buttons */
