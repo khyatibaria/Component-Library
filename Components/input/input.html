@@ -13,17 +13,23 @@
     <link href="./input.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <fieldset class="fieldset">
-      <legend class="legend">Label</legend>
-      <input class="input" />
-    </fieldset>
-    <fieldset class="fieldset error-border">
-      <legend class="legend error">Label</legend>
-      <input class="input" />
-    </fieldset>
-    <fieldset class="fieldset success-border">
-      <legend class="legend success">Label</legend>
-      <input class="input" />
-    </fieldset>
+    <div class="input-box">
+      <fieldset class="fieldset">
+        <input class="input" />
+        <legend class="legend"><span>Label</span></legend>
+      </fieldset>
+    </div>
+    <div class="input-box">
+      <fieldset class="fieldset success-border">
+        <input class="input" />
+        <legend class="legend success"><span>Label</span></legend>
+      </fieldset>
+    </div>
+    <div class="input-box">
+      <fieldset class="fieldset error-border">
+        <input class="input" />
+        <legend class="legend error"><span>Label</span></legend>
+      </fieldset>
+    </div>
   </body>
 </html>
