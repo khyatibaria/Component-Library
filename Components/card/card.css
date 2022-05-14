@@ -2,46 +2,70 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  justify-content: space-evenly;
-  background-color: var(--primary-bgcolor);
-  border-radius: var(--radius);
-  width: 14rem;
-  height: 26rem;
+  width: 12rem;
+  height: 22rem;
   margin: 1rem;
-  padding: 1rem;
+  border-radius: 0.5rem;
 }
-.full-media {
-  padding: 0px;
-  margin: 0px;
+.card-header{
+  height: 64%;
+  background-color: var(--grey);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 36%;
+  padding: 0.5rem;
+}
+.card-footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: baseline;
 }
 .card-image {
-  align-self: center;
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  width: 14rem;
-  height: 16rem;
+  width: 10rem;
+  height: 12rem;
+  padding: 1rem;
 }
-.full-image {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  width: 14rem;
-  height: 16rem;
+.card-text {
+  font-size: 1rem;
+  font-weight: 600;
+  /* padding: 0 0.75rem; */
+}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.card-subtitle {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+.card-button {
+  display: inline-block;
+  cursor: pointer;
+  width:70%;
+  font-weight: 600;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  background-color: var(--secondary-color);
+  border-radius: 2rem;
 }
 .wishlist-btn {
-  position: absolute;
-  top: 1.5rem;
-  right: 1.25rem;
   border: none;
   outline: none;
-  color: white;
   cursor: pointer;
+  color:var(--danger-color);
   border-radius: var(--radius);
   background-color: transparent;
 }
 .wishlist-btn:hover {
   color: var(--danger-color);
 }
-
 .card-badge {
   position: absolute;
   top: 0.5rem;
@@ -53,63 +77,15 @@
   background-color: red;
   border-radius: var(--radius);
 }
-
 .card-close {
   position: absolute;
   top: 0.5rem;
   right: 0.5rem;
   z-index: 2;
 }
-.card-body {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  margin: 0.5rem;
-}
-
-.card-title {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-
-.card-subtitle {
-  font-size: 1rem;
-}
-
-.card-text {
-  font-size: 1.25rem;
-  font-weight: 600;
-  padding: 0.5rem;
-}
-
-.card-button {
-  display: inline-block;
-  cursor: pointer;
-  background-color: var(--white);
-  font-weight: 600;
-  border: none;
-  padding: 0.5rem;
-  font-size: 1rem;
-  outline: none;
-  border-radius: var(--radius);
-}
-
-.card-button:hover {
-  background-color: var(--warning-bgcolor);
-}
-.full-mediaBody {
-  margin: 0.5rem;
-}
 .shadow {
   box-shadow: 8px 8px 10px var(--grey);
 }
-
-.card-fullimage {
-  border-top-left-radius: var(--radius);
-  border-top-right-radius: var(--radius);
-  width: 15rem;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -119,22 +95,21 @@
   background-color: rgba(119, 119, 119, 0.5);
   z-index: 5;
 }
-
 .overlay-text {
   position: absolute;
-  top: 50%;
-  left: 15%;
-  font-size: 1.5rem;
-  font-weight: 900;
+  margin: 0 auto;
+  top: 40%;
+  left: 20%;
+  font-size: 1rem;
+  font-weight: 600;
   padding: 0.5rem;
   background-color: var(--primary-color);
 }
-
 .text-card {
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: var(--primary-bgcolor);
+  background-color: var(--grey);
   border-radius: var(--radius);
   width: 15rem;
   height: max-content;
@@ -151,60 +126,24 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  width: 30rem;
-  height: 16rem;
+  width: 25rem;
+  height: 14rem;
   margin: 0.5rem;
   border-radius: var(--radius);
-  background-color: var(--primary-bgcolor);
 }
-
-.horizontal-cardImg {
-  max-width: 12rem;
-  max-height: 16rem;
-  border-radius: var(--radius);
+.horizontal-card-head{
+  width: 50%;
+    background-color: var(--grey);
 }
-
-.card-badge {
-  position: absolute;
-  top: 0.5rem;
-  left: 0;
-  font-size: 0.75rem;
-  padding: 0.25rem 0.75rem;
-  font-weight: 600;
-  color: white;
-  background-color: red;
-  border-radius: var(--radius);
-}
-.card-close {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  z-index: 2;
-}
-
-.card-title {
-  font-size: 1.75rem;
-  font-weight: 600;
-}
-
-.card-subtitle {
-  font-size: 1rem;
-}
-.horizontal-cardBody {
+.horizontal-card-body{
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: baseline;
-  padding: 0.5rem;
-  margin: 0.5rem;
+  justify-content: space-evenly;
+  width: 50%;
+  padding: 0.75rem;
 }
-
-.horizontal-cardText {
-  font-size: 1.5rem;
-  font-weight: 600;
-}
-.horizontal-cardQuantity {
+.card-quantity {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -217,30 +156,25 @@
   padding: 0.25rem;
   border-radius: 0.25rem;
   margin: 0.25rem;
+  background-color:var(--grey);
 }
 .quantity-btn {
   background-color: transparent;
   outline: none;
   border: none;
-  color: white;
   font-size: 1.25rem;
   cursor: pointer;
   margin: 0.25rem;
 }
-.horizontal-cardBtn {
+.horizontal-card-btn {
   display: inline-block;
   width: 100%;
   cursor: pointer;
-  background-color: white;
   font-weight: 600;
   border: none;
   padding: 0.5rem;
-  margin: 0.25rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
   outline: none;
-  border-radius: var(--radius);
-}
-
-.horizontal-cardBtn:hover {
-  background-color: var(--warning-bgcolor);
+  border-radius: 2rem;
+  background-color: var(--secondary-color);
 }
