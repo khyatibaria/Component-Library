@@ -1,42 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Khyati Baria" />
-    <meta name="description" content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces" />
+    <meta
+      name="description"
+      content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces"
+    />
     <title>Badge Component</title>
     <link href="../../docs-css/variable.css" rel="stylesheet" type="text/css" />
     <link href="badge.css" rel="stylesheet" type="text/css" />
     <link href="../avatar/avatar.css" rel="stylesheet" type="text/css" />
-    <script src="https://kit.fontawesome.com/99b4ab4b7a.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/99b4ab4b7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
-        <figure class="avatar badge">
-            <img class="img-responsive img-rounded" src="../assets/avatar.svg" />
-            <div class="badge-count">2</div>
-        </figure>
-        <figure class="avatar avatar-sm badge">
-            <img class="img-responsive img-rounded" src="../assets/avatar2.svg" />
-            <div class="badge-count badge-sm badge-active">10</div>
-        </figure>
-        <figure class=" avatar avatar-md badge">
-            <img class="img-responsive img-rounded" src="../assets/avatar.svg" />
-            <div class="badge-count badge-md badge-inactive">15</div>
-        </figure>
-        <figure class="avatar avatar-xl badge">
-            <img class="img-responsive img-rounded" src="../assets/avatar4.svg" />
-            <div class="badge-count badge-xl badge-color">10</div>
-        </figure>
-
-        <figure class="icon-badge">
-            <img class="img-responsive " src="../assets/cart.svg" />
-            <div class="icon-badge-count badge-red" id="icon">5</div>
-        </figure>
-        <figure class="icon-badge">
-            <img class="img-responsive" src="../assets/message.svg" />
-            <div class="icon-badge-count" id="icon">5</div>
-        </figure>
-</body>
+  <body>
+    <figure class="avatar badge">
+      <img class="img-responsive img-rounded" src="../assets/avatar.svg" />
+      <div class="badge-count badge-bottom badge-right grey">9</div>
+    </figure>
+    <figure class="avatar avatar-sm badge">
+      <img class="img-responsive img-rounded" src="../assets/avatar2.svg" />
+      <div class="badge-count badge-bottom badge-sm danger">10</div>
+    </figure>
+    <figure class="avatar avatar-md badge">
+      <img class="img-responsive img-rounded" src="../assets/avatar.svg" />
+      <div class="badge-count badge-bottom badge-right badge-md secondary">
+        15
+      </div>
+    </figure>
+    <figure class="avatar avatar-xl badge">
+      <img class="img-responsive img-rounded" src="../assets/avatar4.svg" />
+      <div class="badge-count badge-bottom badge-right badge-xl warning">
+        1055
+      </div>
+    </figure>
+    <figure class="badge icon-badge">
+      <img class="img-responsive" src="../assets/cart.svg" />
+      <div
+        class="badge-count badge-top badge-right badge-red success"
+        id="icon"
+      >
+        15
+      </div>
+    </figure>
+    <figure class="badge icon-badge">
+      <img class="img-responsive icon-badge" src="../assets/message.svg" />
+      <div class="badge-count badge-top badge-right" id="icon">5</div>
+    </figure>
+  </body>
 </html>

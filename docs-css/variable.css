@@ -20,19 +20,19 @@ body::-webkit-scrollbar-thumb {
 }
 
 :root {
-  --primary-color: #54bab9;
-  --secondary-color: #6b39ff;
-  --success-color: #42ff85;
-  --danger-color: #ef4b4b;
-  --warning-color: #f5b314;
-  --primary-bgcolor: #b5deff;
-  --secondary-bgcolor: #cab8ff;
-  --success-bgcolor: #c1ffd7;
-  --danger-bgcolor: #f9c0c0;
-  --warning-bgcolor: #fcffa6;
+  --primary-color: #72a1f1;
+  --secondary-color: #b39bc8;
+  --success-color: #a1f172;
+  --danger-color: #f172a1;
+  --warning-color: #f1c272;
+  --primary-bgcolor: #e6eefd;
+  --secondary-bgcolor: #e3dbeb;
+  --success-bgcolor: #dcfacb;
+  --danger-bgcolor: #fcdde8;
+  --warning-bgcolor: #fae9cb;
   --white: #ffffff;
   --black: #000000;
-  --grey: #6c7780;
+  --grey: #D3D3D3;;
   --p-0: 0px;
   --m-0: 0px;
   --p-1: 0.25rem;

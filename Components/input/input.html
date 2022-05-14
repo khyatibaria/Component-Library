@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Khyati Baria" />
-    <meta name="description" content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces" />
+    <meta
+      name="description"
+      content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces"
+    />
     <title>Input Component</title>
     <link href="../../docs-css/variable.css" rel="stylesheet" type="text/css" />
     <link href="./input.css" rel="stylesheet" type="text/css" />
-</head>
-<body>
+  </head>
+  <body>
     <div class="input-box">
-        <div class="input-group">
-            <input type="text" id="primary-input" class="input" />
-            <label class="input-label" for="primary-input">Input</label>
-        </div>
-        <div class="input-group error-border">
-            <input type="text" id="primary-input" class="input" />
-            <label for="primary-input" class="input-label error-label">Input</label>
-        </div>
-        <div class="input-group success-border">
-            <input type="text" id="primary-input" class="input" />
-            <label for="primary-input" class="input-label success-label">Input</label>
-        </div>
+      <fieldset class="fieldset">
+        <input class="input" />
+        <legend class="legend"><span>Label</span></legend>
+      </fieldset>
     </div>
-</body>
+    <div class="input-box">
+      <fieldset class="fieldset success-border">
+        <input class="input" />
+        <legend class="legend success"><span>Label</span></legend>
+      </fieldset>
+    </div>
+    <div class="input-box">
+      <fieldset class="fieldset error-border">
+        <input class="input" />
+        <legend class="legend error"><span>Label</span></legend>
+      </fieldset>
+    </div>
+  </body>
 </html>
