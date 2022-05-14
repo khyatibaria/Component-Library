@@ -2,13 +2,15 @@
   display: inline-block;
   outline: none;
   background-color: transparent;
-  margin: 1rem;
   padding: 0.5rem 0.85rem;
   font-size: 1rem;
   font-weight: bold;
   border: none;
   border-radius: var(--radius);
   cursor: pointer;
+}
+.full-width{
+  width:100%;
 }
 .btn-hover:hover {
   box-shadow: 3px 3px 6px var(--black);
@@ -92,6 +94,13 @@
 .icon:hover {
   box-shadow: none;
 }
+.primary{
+  background-color: var(--primary-color);
+}
+.secondary{
+  background-color: var(--secondary-color);
+}
+
 .color-primary {
   color: var(--primary-color);
 }
