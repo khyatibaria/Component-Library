@@ -6,7 +6,7 @@
   height: 22rem;
   margin: 1rem;
   border-radius: 0.5rem;
-  background-color: var(--grey);
+  background-color: var(--light-bgcolor);
 }
 .card-header {
   height: 64%;
@@ -52,7 +52,7 @@
   padding: 0.5rem;
   font-size: 1rem;
   outline: none;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   border-radius: 2rem;
 }
 .wishlist-btn {
@@ -176,5 +176,4 @@
   font-size: 0.85rem;
   outline: none;
   border-radius: 2rem;
-  background-color: var(--secondary-color);
 }
