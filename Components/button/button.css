@@ -3,14 +3,15 @@
   outline: none;
   background-color: transparent;
   padding: 0.5rem 0.85rem;
+  margin: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
   border: none;
   border-radius: var(--radius);
   cursor: pointer;
 }
-.full-width{
-  width:100%;
+.full-width {
+  width: 100%;
 }
 .btn-hover:hover {
   box-shadow: 3px 3px 6px var(--black);
@@ -38,7 +39,7 @@
 }
 .outline-success:hover {
   background-color: var(--success-bgcolor);
-    box-shadow: 3px 3px 6px var(--black);
+  box-shadow: 3px 3px 6px var(--black);
 }
 .outline-warning {
   color: var(--warning-color);
@@ -52,7 +53,7 @@
   color: var(--danger-color);
   border: solid 2px var(--danger-color);
 }
-.outline-danger:hover { 
+.outline-danger:hover {
   background-color: var(--danger-bgcolor);
   box-shadow: 3px 3px 6px var(--black);
 }
@@ -87,20 +88,20 @@
 .icon:hover {
   box-shadow: none;
 }
-.primary{
+.primary {
   background-color: var(--primary-color);
 }
-.secondary{
+.secondary {
   background-color: var(--secondary-color);
 }
-.danger{
-background-color: var(--danger-color);
+.danger {
+  background-color: var(--danger-color);
 }
-.warning{
-background-color: var(--warning-color);
+.warning {
+  background-color: var(--warning-color);
 }
-.success{
-background-color: var(--success-color);
+.success {
+  background-color: var(--success-color);
 }
 .color-primary {
   color: var(--primary-color);
