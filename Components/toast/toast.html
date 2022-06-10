@@ -1,25 +1,39 @@
 <html>
-
-<head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Khyati Baria" />
-    <meta name="description" content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces" />
+    <meta
+      name="description"
+      content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces"
+    />
     <title>Toast Component</title>
     <link rel="stylesheet" type="text/css" href="../../docs-css/variable.css" />
+    <link rel="stylesheet" type="text/css" href="../button/button.css" />
     <link rel="stylesheet" type="text/css" href="./toast.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-</head>
-<body>
-    <div class="toast">
-        Can't send photo. Retry in 5 seconds.
-        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="toast-container">
+      <div class="toast-message">Can't send photo. Retry in 5 seconds.</div>
+      <div>
+        <button class="toast-close-button">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
-    <button class="toast-demo" id="toast-demoBtn">Open</button>
-    <div class="toast visibility" id="toast-closeable">
-        Submitted Successfully.
-        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+    <button id="toast-demoBtn" class="btn bg-primary">Open</button>
+    <div id="toast-closeable" class="toast-container visibility">
+      <div class="toast-message">Submitted Successfully!!!</div>
+      <div>
+        <button class="toast-close-button">
+          <i class="fa fa-times" aria-hidden="true"></i>
+        </button>
+      </div>
     </div>
     <script src="./toast.js"></script>
-</body>
+  </body>
 </html>
