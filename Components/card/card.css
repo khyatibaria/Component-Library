@@ -6,10 +6,10 @@
   height: 22rem;
   margin: 1rem;
   border-radius: 0.5rem;
-}
-.card-header{
-  height: 64%;
   background-color: var(--grey);
+}
+.card-header {
+  height: 64%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
@@ -20,7 +20,7 @@
   height: 36%;
   padding: 0.5rem;
 }
-.card-footer{
+.card-footer {
   display: flex;
   justify-content: space-evenly;
   align-content: baseline;
@@ -33,7 +33,7 @@
 .card-text {
   font-size: 1rem;
   font-weight: 600;
-  /* padding: 0 0.75rem; */
+  padding: 0 0.25rem;
 }
 .card-title {
   font-size: 1.25rem;
@@ -46,7 +46,7 @@
 .card-button {
   display: inline-block;
   cursor: pointer;
-  width:70%;
+  width: 70%;
   font-weight: 600;
   border: none;
   padding: 0.5rem;
@@ -59,7 +59,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color:var(--danger-color);
+  color: var(--danger-color);
   border-radius: var(--radius);
   background-color: transparent;
 }
@@ -131,11 +131,11 @@
   margin: 0.5rem;
   border-radius: var(--radius);
 }
-.horizontal-card-head{
+.horizontal-card-head {
   width: 50%;
-    background-color: var(--grey);
+  background-color: var(--grey);
 }
-.horizontal-card-body{
+.horizontal-card-body {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -156,7 +156,7 @@
   padding: 0.25rem;
   border-radius: 0.25rem;
   margin: 0.25rem;
-  background-color:var(--grey);
+  background-color: var(--grey);
 }
 .quantity-btn {
   background-color: transparent;
