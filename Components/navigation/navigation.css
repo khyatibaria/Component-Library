@@ -75,7 +75,9 @@
   font-size: var(--fontSize-2);
 }
 
-.navigation-link-img {
-  width: 2rem;
-  height: 2rem;
+.navigation-link-icon {
+  font-size: 1.5rem;
+}
+.navigation-link-icon:hover {
+  color: var(--warning-color);
 }
