@@ -1,6 +1,5 @@
 .alert {
   background-color: var(--primary-bgcolor);
-  color: var(--primary-color);
   padding: var(--p-4);
   margin: var(--p-4);
   font-size: var(--fontSize);
@@ -21,18 +20,14 @@
   border: none;
 }
 .alert-secondary {
-  color: var(--secondary-color);
   background-color: var(--secondary-bgcolor);
 }
 .alert-success {
-  color: var(--success-color);
   background-color: var(--success-bgcolor);
 }
 .alert-danger {
-  color: var(--danger-color);
   background-color: var(--danger-bgcolor);
 }
 .alert-warning {
-  color: var(--warning-color);
   background-color: var(--warning-bgcolor);
 }

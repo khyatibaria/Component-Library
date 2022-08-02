@@ -2,14 +2,14 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 12rem;
-  height: 22rem;
+  width: 14rem;
+  height: 24rem;
   margin: 1rem;
   border-radius: 0.5rem;
   background-color: var(--light-bgcolor);
 }
 .card-header {
-  height: 64%;
+  height: 60%;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 36%;
+  height: 40%;
   padding: 0.5rem;
 }
 .card-footer {
@@ -26,8 +26,8 @@
   align-content: baseline;
 }
 .card-image {
-  width: 10rem;
-  height: 12rem;
+  width: 12rem;
+  height: 13.5rem;
   padding: 1rem;
 }
 .card-text {

@@ -5,8 +5,8 @@
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  width: 30%;
-  max-width: 55%;
+  width: 35%;
+  max-width: 70%;
   margin: 1rem;
   padding: 0.5rem;
   background-color: var(--secondary-color);
