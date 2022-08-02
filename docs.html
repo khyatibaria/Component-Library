@@ -114,19 +114,19 @@
                 <!-- Standard Alerts  -->
                 <div class="wrapper">
                     <div class="alert">
-                        <i class="fas fa-exclamation"></i><span>A Simple alert with icon!!!!</span>
-                    </div>
-                    <div class="alert alert-success">
-                        <i class="fas fa-check-circle"></i><span>A Success alert message!!!!</span>
-                    </div>
-                    <div class="alert alert-danger">
-                        <i class="fas fa-exclamation-circle"></i><span>A Danger alert message!!!!</span>
-                    </div>
-                    <div class="alert alert-warning">
-                        <i class="fas fa-exclamation-triangle"></i><span>A Warning alert message!!!!</span>
+                    <i class="fas fa-exclamation"></i><span class="alert-text">A Simple alert with icon!!!!</span>
                     </div>
                     <div class="alert alert-secondary">
-                        <i class="fas fa-exclamation"></i><span>An Alert with a text link-<a href="#">check it out!</a></span>
+                    <i class="fas fa-check-circle"></i><span class="alert-text">A Success alert message!!!!</span>
+                    </div>
+                    <div class="alert alert-success">
+                    <i class="fas fa-check-circle"></i><span class="alert-text">A Success alert message!!!!</span>
+                    </div>
+                    <div class="alert alert-danger">
+                    <i class="fas fa-exclamation-circle"></i><span class="alert-text">A Danger alert message!!!!</span>
+                    </div>
+                    <div class="alert alert-warning">
+                    <i class="fas fa-exclamation-triangle"></i><span class="alert-text">A Warning alert message!!!!</span>
                     </div>
                 </div>
         
@@ -143,32 +143,38 @@
 
                 <!-- Alerts with Close Button -->
                 <div class="wrapper">
-                    <div class="alert-closeble">
-                        <i class="fas fa-exclamation"></i><span>A Simple alert with icon!!!!</span><button class="alert-close">
+                    <div class=" alert alert-closeble">
+                        <div><i class="fas fa-exclamation"></i><span class="alert-text">A Simple alert with icon!!!!</span></div>
+                        <div>
+                            <button class="alert-close">
+                            <i class="far fa-times-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="alert alert-closeble alert-success">
+                        <div><i class="fas fa-check-circle"></i><span class="alert-text">A Success alert message!!!!</span></div>
+                        <div>
+                            <button class="alert-close">
+                            <i class="far fa-times-circle"></i>
+                            </button>
+                        </div>
+                        </div>                 
+                        <div class="alert alert-closeble alert-danger">
+                        <div><i class="fas fa-exclamation-circle"></i><span class="alert-text">A Danger alert message!!!!</span></div>
+                        <div>
+                            <button class="alert-close">
+                            <i class="far fa-times-circle"></i>
+                            </button>
+                        </div>
+                        </div>
+                        <div class="alert alert-closeble alert-warning">
+                        <div> <i class="fas fa-exclamation-triangle"></i><span class="alert-text">A Warning alert message!!!!</span></div>
+                        <div>     
+                            <button class="alert-close">
                             <i class="far fa-times-circle"></i>
                         </button>
-                    </div>
-                    <div class="alert-closeble alert-success">
-                        <i class="fas fa-check-circle"></i><span>A Success alert message!!!!</span><button class="alert-close">
-                            <i class="far fa-times-circle"></i>
-                        </button>
-                    </div>
-                    <div class="alert-closeble alert-danger">
-                        <i class="fas fa-exclamation-circle"></i><span>A Danger alert message!!!!</span><button class="alert-close">
-                            <i class="far fa-times-circle"></i>
-                        </button>
-                    </div>
-                    <div class="alert-closeble alert-warning">
-                        <i class="fas fa-exclamation-triangle"></i><span>A Warning alert message!!!!</span><button class="alert-close">
-                            <i class="far fa-times-circle"></i>
-                        </button>
-                    </div>
-                    <div class="alert-closeble alert-secondary">
-                        <i class="fas fa-exclamation"></i><span>An Alert with a text link-<a href="#">check it out!</a></span><button
-                            class="alert-close">
-                            <i class="far fa-times-circle"></i>
-                        </button>
-                    </div>
+                        </div>
+                        </div>
                 </div>
                 <h3 class="component-subhead">Code Snippet for Alerts with Close Button</h3>
 
@@ -202,16 +208,32 @@
                 <strong>Note:- Add responsive image class to img element in avatar.</strong>
                 <div class="component-container">
                     <figure class="avatar">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar3.svg" alt="avatar" />
+                    <img
+                        class="img-responsive img-rounded"
+                        src="./Components/assets/avatar1.svg"
+                        alt="avatar"
+                    />
                     </figure>
-                    <figure class="avatar-sm">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar2.svg" alt="avatar" />
+                    <figure class="avatar avatar-sm">
+                    <img
+                        class="img-responsive img-rounded"
+                        src="./Components/assets/avatar2.svg"
+                        alt="avatar"
+                    />
                     </figure>
-                    <figure class="avatar-md">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar1.svg" alt="avatar" />
+                    <figure class="avatar avatar-md">
+                    <img
+                        class="img-responsive img-rounded"
+                        src="./Components/assets/avatar3.svg"
+                        alt="avatar"
+                    />
                     </figure>
-                    <figure class="avatar-xl">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar.svg" alt="avatar" />
+                    <figure class="avatar avatar-xl">
+                    <img
+                        class="img-responsive img-rounded"
+                        src="./Components/assets/avatar4.svg"
+                        alt="avatar"
+                    />
                     </figure>
                 </div>
 
@@ -225,10 +247,16 @@
                 </div>
                 <h3 class="component-subhead">Examples of Text Avatar</h3>
                 <div class="component-container">
-                    <figure class="text-avatar text-xl">KB</figure>
-                    <figure class="text-avatar text-md">KB</figure>
-                    <figure class="text-avatar text-sm">KB</figure>
-                    <figure class="text-avatar">KB</figure>
+                    <figure class="avatar"><div class="avatar-text">KB</div></figure>
+                    <figure class="avatar avatar-sm">
+                    <div class="avatar-text text-sm">KB</div>
+                    </figure>
+                    <figure class="avatar avatar-md">
+                    <div class="avatar-text text-md">KB</div>
+                    </figure>
+                    <figure class="avatar avatar-xl">
+                    <div class="avatar-text text-xl">KB</div>
+                    </figure>
                 </div>
 
                 <h3 class="component-subhead">Code Snippet for Text Avatar</h3>
@@ -254,28 +282,28 @@
             </p>
                 <div class="component-container">
                     <figure class="avatar badge">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar.svg" />
-                        <div class="badge-count">2</div>
+                    <img class="img-responsive img-rounded" src="./Components/assets/avatar.svg" />
+                    <div class="badge-count badge-bottom badge-right grey">9</div>
                     </figure>
                     <figure class="avatar avatar-sm badge">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar2.svg" />
-                        <div class="badge-count badge-sm badge-active">10</div>
+                    <img class="img-responsive img-rounded" src="./Components/assets/avatar1.svg" />
+                    <div class="badge-count badge-bottom badge-sm danger">10</div>
                     </figure>
-                    <figure class=" avatar avatar-md badge">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar.svg" />
-                        <div class="badge-count badge-md badge-inactive">15</div>
+                    <figure class="avatar avatar-md badge">
+                    <img class="img-responsive img-rounded" src="./Components/assets/avatar.svg" />
+                    <div class="badge-count badge-bottom badge-right badge-md secondary">
+                        15
+                    </div>
                     </figure>
                     <figure class="avatar avatar-xl badge">
-                        <img class="img-responsive img-rounded" src="./Components/assets/avatar4.svg" />
-                        <div class="badge-count badge-xl badge-color">10</div>
-                    </figure>                                
-                    <figure class="icon-badge" style="margin:1rem">
-                        <img class="img-responsive " src="./Components/assets/cart.svg" />
-                        <div class="icon-badge-count" id="icon">5</div>
+                    <img class="img-responsive img-rounded" src="./Components/assets/avatar4.svg" />
+                    <div class="badge-count badge-bottom badge-right badge-xl warning">
+                        105
+                    </div>
                     </figure>
-                    <figure class="icon-badge">
-                        <img class="img-responsive" src="./Components/assets/message.svg" />
-                        <div class="icon-badge-count" id="icon">5</div>
+                    <figure class="badge icon-badge">
+                    <img class="img-responsive icon-badge" src="./Components/assets/message.svg" />
+                    <div class="badge-count badge-top badge-right" id="icon">5</div>
                     </figure>
                 </div>
             </div>
@@ -408,38 +436,24 @@
                 <h3 class="component-subhead">Example of Cards</h3>
                 <div class="card-wrapper">
                     <div class="card">
-                        <div class="card-head">
+                        <div class="card-header">
+                            <img
+                            class="card-image"
+                            src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                            />
+                        </div>
+                        <div class="card-body">
+                            <div class="card-text">
+                            <div class="card-title">The Alchemist</div>
+                            <div class="card-subtitle">By Panlo Coelho</div>
+                            <div>Rs.899/-</div>
+                            </div>
+                            <div class="card-footer">
+                            <button class="card-button">Add to Cart</button>
                             <button class="wishlist-btn" title="Add to favorites">
                                 <i class="fas fa-heart fa-2x"></i>
                             </button>
-                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">The Alchemist</div>
-                            <div class="card-subtitle">By Panlo Coelho</div>
-                            <div class="card-text">Rs.899/-</div>
-                            <button class="card-button">
-                                Add to Cart
-                            </button>
-                        </div>
-                    </div>
-
-                    <div class="card full-media">
-                        <div class="card-head">
-                            <div class="card-badge">BestSeller</div>
-                            <div class="card-close"><i class="fas fa-times"></i></div>
-                            <button class="wishlist-btn" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                            <img class="full-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
-                        </div>
-                        <div class="card-body">
-                            <div class="card-title">The Alchemist</div>
-                            <div class="card-subtitle">By Panlo Coelho</div>
-                            <div class="card-text">Rs.899/-</div>
-                            <button class="card-button">
-                                Add to Cart
-                            </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -456,42 +470,49 @@
                 <h3 class="component-subhead">Card with Badge and Close Button</h3>
                 <div class="component-container">
                     <div class="card">
-                        <div class="card-head">
-                            <div class="card-badge">BestSeller</div>
-                            <button class="wishlist-btn" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                    <div class="card-header">
+                        <div class="card-badge">BestSeller</div>
+                        <img
+                        class="card-image"
+                        src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                        />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                        <div class="card-title">The Alchemist</div>
+                        <div class="card-subtitle">By Panlo Coelho</div>
+                        <div>Rs.899/-</div>
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">The Alchemist</div>
-                            <div class="card-subtitle">By Panlo Coelho</div>
-                            <div class="card-text">Rs.899/-</div>
-                            <button class="card-button">
-                                Add to Cart
-                            </button>
+                        <div class="card-footer">
+                        <button class="card-button">Add to Cart</button>
+                        <button class="wishlist-btn" title="Add to favorites">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </button>
                         </div>
-
+                    </div>
                     </div>
 
                     <div class="card">
-                        <div class="card-head">
-                            <div class="card-badge">BestSeller</div>
-                            <div class="card-close"><i class="fas fa-times"></i></div>
-                            <button class="wishlist-btn" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                    <div class="card-header">
+                        <div class="card-close"><i class="fas fa-times"></i></div>
+                        <img
+                        class="card-image"
+                        src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                        />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                        <div class="card-title">The Alchemist</div>
+                        <div class="card-subtitle">By Panlo Coelho</div>
+                        <div>Rs.899/-</div>
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">The Alchemist</div>
-                            <div class="card-subtitle">By Panlo Coelho</div>
-                            <div class="card-text">Rs.899/-</div>
-                            <button class="card-button">
-                                Add to Cart
-                            </button>
+                        <div class="card-footer">
+                        <button class="card-button">Add to Cart</button>
+                        <button class="wishlist-btn" title="Add to favorites">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </button>
                         </div>
-
+                    </div>
                     </div>
                 </div>
                  <h3 class="component-subhead">Code Snippet for Card with Badge and Close Button</h3>
@@ -503,29 +524,28 @@
                     </iframe>
                 </div>
 
-
-
-
                 <h3 class="component-subhead">Card with Shadow</h3>
                 <div class="wrapper">
                     <div class="card shadow">
-                        <div class="card-head">
-                            <div class="card-badge">BestSeller</div>
-                            <div class="card-close"><i class="fas fa-times"></i></div>
-                            <button class="wishlist-btn" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                    <div class="card-header">
+                        <img
+                        class="card-image"
+                        src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                        />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                        <div class="card-title">The Alchemist</div>
+                        <div class="card-subtitle">By Panlo Coelho</div>
+                        <div>Rs.899/-</div>
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">The Alchemist</div>
-                            <div class="card-subtitle">By Panlo Coelho</div>
-                            <div class="card-text">Rs.899/-</div>
-                            <button class="card-button">
-                                Add to Cart
-                            </button>
+                        <div class="card-footer">
+                        <button class="card-button">Add to Cart</button>
+                        <button class="wishlist-btn" title="Add to favorites">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </button>
                         </div>
-
+                    </div>
                     </div>
                 </div>
                 <h3 class="component-subhead">Code Snippet for  Card with Shadow</h3>
@@ -541,28 +561,28 @@
                 <h3 class="component-subhead">Card with Text Overlay</h3>
                 <div class="wrapper">
                     <div class="card">
-                        <div class="overlay">
-                            <div class="overlay-text">
-                                Out of Stocks
-                            </div>
+                    <div class="overlay">
+                        <div class="overlay-text">Out of Stocks</div>
+                    </div>
+                    <div class="card-header">
+                        <img
+                        class="card-image"
+                        src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                        />
+                    </div>
+                    <div class="card-body">
+                        <div class="card-text">
+                        <div class="card-title">The Alchemist</div>
+                        <div class="card-subtitle">By Panlo Coelho</div>
+                        <div>Rs.899/-</div>
                         </div>
-                        <div class="card-head">
-                            <div class="card-badge">BestSeller</div>
-                            <div class="card-close"><i class="fas fa-times"></i></div>
-                            <button class="wishlist-btn" title="Add to favorites">
-                                <i class="fas fa-heart fa-2x"></i>
-                            </button>
-                            <img class="card-image" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg" />
+                        <div class="card-footer">
+                        <button class="card-button">Add to Cart</button>
+                        <button class="wishlist-btn" title="Add to favorites">
+                            <i class="fas fa-heart fa-2x"></i>
+                        </button>
                         </div>
-                        <div class="card-body">
-                            <div class="card-title">The Alchemist</div>
-                            <div class="card-subtitle">By Panlo Coelho</div>
-                            <div class="card-text">Rs.899/-</div>
-                            <button class="card-button">
-                                Add to Cart
-                            </button>
-                        </div>
-
+                    </div>
                     </div>
                 </div>
                 <h3 class="component-subhead">Code Snippet for Text Overlay Card</h3>
@@ -578,64 +598,34 @@
                 <h3 class="component-subhead">Horizontal Card</h3>
                 <div class="wrapper">
                     <div class="horizontal-card">
-                        <div class="horizontal-cardHead">
-                            <div class="horizontal-cardBadge">
-                                <div class="card-badge">BestSeller</div>
-                                <div class="card-close"><i class="fas fa-times"></i></div>
-                            </div>
-                            <img class="horizontal-cardImg" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
-                                alt="media" />
-                        </div>
-                    
-                        <div class="horizontal-cardBody">
-                            <div class="horizontal-cardTitle">
-                                <div class="card-title">The Alchemist</div>
-                                <div class="card-subtitle">By Panlo Coelho</div>
-                            </div>
-                            <div class="horizontal-cardText">Rs.899/-</div>
-                            <div class="horizontal-cardQuantity">
-                                <span class="card-quantity">Quantity:-</span>
-                                <button class="quantity-btn">
-                                    <i class="fas fa-plus-square"></i>
-                                </button>
-                                <input class="card-input" />
-                                <button class="quantity-btn">
-                                    <i class="fas fa-minus-square"></i>
-                                </button>
-                            </div>
-                            <button class="horizontal-cardBtn">Move to Wishlist</button>
-                            <button class="horizontal-cardBtn">Remove from Cart</button>
-                        </div>
+                    <div class="horizontal-card-head">
+                        <div class="card-badge">BestSeller</div>
+                        <div class="card-close"><i class="fas fa-times"></i></div>
+                        <img
+                        class="card-image"
+                        src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
+                        alt="media"
+                        />
                     </div>
-                    
-                    <div class="horizontal-card">
-                        <div class="horizontal-cardHead">
-                            <div class="horizontal-cardBadge">
-                                <div class="card-close"><i class="fas fa-times"></i></div>
-                            </div>
-                            <img class="horizontal-cardImg" src="https://images-na.ssl-images-amazon.com/images/I/71aFt4+OTOL.jpg"
-                                alt="media" />
+                    <div class="horizontal-card-body">
+                        <div class="card-text">
+                        <div class="card-title">The Alchemist</div>
+                        <div class="card-subtitle">By Panlo Coelho</div>
+                        <div>Rs.899/-</div>
                         </div>
-                    
-                        <div class="horizontal-cardBody">
-                            <div class="horizontal-cardTitle">
-                                <div class="card-title">The Alchemist</div>
-                                <div class="card-subtitle">By Panlo Coelho</div>
-                            </div>
-                            <div class="horizontal-cardText">Rs.899/-</div>
-                            <div class="horizontal-cardQuantity">
-                                <span class="card-quantity">Quantity:-</span>
-                                <button class="quantity-btn">
-                                    <i class="fas fa-plus-square"></i>
-                                </button>
-                                <input class="card-input" />
-                                <button class="quantity-btn">
-                                    <i class="fas fa-minus-square"></i>
-                                </button>
-                            </div>
-                            <button class="horizontal-cardBtn">Move to Wishlist</button>
-                            <button class="horizontal-cardBtn">Remove from Cart</button>
+                        <div class="card-quantity">
+                        <span class="quantity-label">Quantity:-</span>
+                        <button class="quantity-btn">
+                            <i class="fas fa-plus-square"></i>
+                        </button>
+                        <input class="card-input" />
+                        <button class="quantity-btn">
+                            <i class="fas fa-minus-square"></i>
+                        </button>
                         </div>
+                        <button class="horizontal-card-btn danger">Move to Wishlist</button>
+                        <button class="horizontal-card-btn warning">Remove from Cart</button>
+                    </div>
                     </div>
                 </div>
                 <h3 class="component-subhead">Code Snippet for Horizontail Card</h3>
@@ -647,7 +637,7 @@
                     </iframe>
                 </div>
 
-
+<!-- 
                 <h3 class="component-subhead">Text only Card</h3>
                 <div class="wrapper">
                     <div class="text-card">
@@ -678,7 +668,7 @@
                         style="width: 100%; height: 465px; border:0; transform: scale(1); overflow:hidden;"
                         sandbox="allow-scripts allow-same-origin">
                     </iframe>
-                </div>
+                </div> -->
             </div>
         </section>
 <!-- _________________________________________IMAGE_________________________________________________ -->
@@ -724,22 +714,22 @@
                 <p></p>
                 <div class="component-container">
                     <div class="input-box">
-                        <div class="input-group">
-                            <input type="text" id="primary-input" class="input" />
-                            <label class="input-label" for="primary-input">Input</label>
-                        </div>
+                    <fieldset class="fieldset">
+                        <input class="input" />
+                        <legend class="legend"><span>Label</span></legend>
+                    </fieldset>
                     </div>
                     <div class="input-box">
-                        <div class="input-group error-border">
-                            <input type="text" id="primary-input" class="input" />
-                            <label for="primary-input" class="input-label error-label">Input</label>
-                        </div>
+                    <fieldset class="fieldset success-border">
+                        <input class="input" />
+                        <legend class="legend success"><span>Label</span></legend>
+                    </fieldset>
                     </div>
                     <div class="input-box">
-                        <div class="input-group success-border">
-                            <input type="text" id="primary-input" class="input" />
-                            <label for="primary-input" class="input-label success-label">Input</label>
-                        </div>
+                    <fieldset class="fieldset error-border">
+                        <input class="input" />
+                        <legend class="legend error"><span>Label</span></legend>
+                    </fieldset>
                     </div>
                 </div>
 
@@ -762,37 +752,34 @@
                 <h3 class="component-subhead">Examples of Navigation</h3>
                 <p></p>
                 <div class="wrapper">
-                    <nav class="navigation">
-                        <div class="navigation-bar">
-                            <div class="navigation-logo">
-                                <!-- <img src="./logo.svg" /> -->
-                                <i class="fas fa-book fa-2x"></i>
-                                <h2>Book House</h2>
-                            </div>
-                            <div class="navigation-search">
-                                <span class="search-icon"><i class="fas fa-search"></i></span>
-                                <input placeholder="Search here" />
-                            </div>
-                            <div class="navigation-links">
-                                <ul class="inline-links">
-                                    <li>
-                                        <a href="#" class="icon-links" title="Profile">
-                                            <i class="fas fa-user"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="icon-links" title="Wishlist">
-                                            <i class="fas fa-heart"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="icon-links" title="Add to Cart">
-                                            <i class="fas fa-cart-plus"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
+                    <nav class="navigation-container">
+                    <div class="navigation-logo-container">
+                        <div class="navigation-logo">
+                        <a><img src="./Components//assets/book-logo.svg" /></a>
                         </div>
+                        <div class="navigation-brand">Logo</div>
+                    </div>
+                    <div class="navigation-search">
+                        <label class="search-icon"><i class="fas fa-search"></i></label>
+                        <input placeholder="Search here" />
+                    </div>
+                    <div class="navigation-links-container">
+                        <a href="#" class="navigation-link" title="Profile">
+                        <div class="navigation-link-icon">
+                            <i class="fas fa-user" aria-hidden="true"></i>
+                        </div>
+                        </a>
+                        <a href="#" class="navigation-link" title="Wishlist">
+                        <div class="navigation-link-icon">
+                            <i class="fas fa-heart" aria-hidden="true"></i>
+                        </div>
+                        </a>
+                        <a href="#" class="navigation-link" title="Add to Cart">
+                        <div class="navigation-link-icon">
+                            <i class="fas fa-cart-plus" aria-hidden="true"></i>
+                        </div>
+                        </a>
+                    </div>
                     </nav>
                 </div>
 
@@ -983,10 +970,14 @@
                 <p>Toast can be use for show small amount of message. Such as feedback message.</p>
                 <h3 class="component-subhead">Example of Toast</h3>
                 <p></p>
-                <div class="wrapper">
-                    <div class="toast">
-                        Can't send photo. Retry in 5 seconds.
-                        <span><i class="fa fa-times" aria-hidden="true"></i></span>
+                <div class="toast-wrapper">
+                    <div class="toast-container">
+                    <div class="toast-message">Can't send photo. Retry in 5 seconds.</div>
+                    <div>
+                        <button class="toast-close-button">
+                        <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                    </div>
                     </div>
                 </div>
 
