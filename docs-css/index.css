@@ -1,18 +1,16 @@
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "nav"
-    "main"
-    "footer";
-}
-
-/* _______________________________________________Main___________________________________________________ */
 .main {
-  grid-area: main;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 .hero {
-  margin: 0 auto;
-  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
   min-height: 30vh;
   color: #282828;
   padding: 5rem 2rem;
@@ -28,13 +26,11 @@
   min-height: 3rem;
   color: var(--primary-color);
 }
-
 .hero-body,
 .docs-head {
   font-size: 1.5rem;
   line-height: 1.5;
 }
-
 .hero-btn {
   display: inline-block;
   outline: none;
@@ -51,26 +47,31 @@
 .docs {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 0 auto;
-  max-width: 90%;
-  min-height: 60vh;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 1rem;
 }
-
 .docs-card {
-  margin: 1.5rem;
-  padding: 1.5rem;
+  width: 45%;
+  margin: 0.5rem;
+  padding: 1rem;
   background-color: var(--white);
   border-radius: 0.25rem;
   box-shadow: 8px 8px 10px #7f8389;
-  height: 30vh;
+}
+.docs-link {
+  width: 40%;
+  margin: 0.5rem;
+  padding: 1rem;
+  background-color: #ededed;
+  border-radius: 0.25rem;
+  box-shadow: 8px 8px 10px #7f8389;
 }
 .docs-text {
   line-height: 1.5;
 }
-
 .docs-btn {
   display: inline-block;
   outline: none;
@@ -89,15 +90,22 @@
   background-color: var(--primary-color);
 }
 
-.docs-link {
-  height: 30vh;
-  margin: 1.5rem;
-  padding: 1.5rem;
-  background-color: var(--white);
-  border-radius: 0.25rem;
-  box-shadow: 8px 8px 10px #7f8389;
-}
-
-.cdn-link {
-  margin: 2rem auto;
+@media only screen and (max-width: 767px) {
+  .hero-head {
+    font-size: 2rem;
+  }
+  .hero-subhead {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  .hero-body,
+  .docs-head {
+    font-size: 1.25rem;
+  }
+  .hero-btn {
+    margin: 2rem;
+  }
+  .docs-link {
+    display: none;
+  }
 }
