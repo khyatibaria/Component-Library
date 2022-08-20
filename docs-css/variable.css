@@ -20,15 +20,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 :root {
-  --primary-color: #72a1f1;
-  --secondary-color: #72f1c2;
-  --success-color: #a1f172;
-  --danger-color: #f172a1;
-  --warning-color: #f1c272;
-  --primary-bgcolor: #b8cff8;
-  --secondary-bgcolor: #b8f8e0;
-  --success-bgcolor: #cff8b8;
-  --danger-bgcolor: #f8b8cf;
+  --primary-color: #abb6ee;
+  --secondary-color: #dc95dd;
+  --success-color: #9fe4b1;
+  --danger-color: #faafa6;
+  --warning-color: #f8e785;
+  --primary-bgcolor: #c0c8f2;
+  --secondary-bgcolor: #e2a8e3;
+  --success-bgcolor: #b3eac1;
+  --danger-bgcolor: #fbc5be;
   --warning-bgcolor: #f3cc89;
   --light-bgcolor: #f0ebf4;
   --white: #ffffff;

@@ -1,125 +1,130 @@
 <html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Khyati Baria">
-    <meta name="description" content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Khyati Baria" />
+    <meta
+      name="description"
+      content="PixelUI - A CSS Component Library for building Clean, Modern UI Interfaces"
+    />
     <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="./docs-css/nav.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./Components/navigation/navigation.css"
+    />
     <link rel="stylesheet" type="text/css" href="./docs-css/index.css" />
     <link rel="stylesheet" type="text/css" href="./docs-css/footer.css" />
     <link rel="stylesheet" type="text/css" href="./docs-css/variable.css" />
-    <script src="https://kit.fontawesome.com/99b4ab4b7a.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/99b4ab4b7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <!--  _______________________________________________NavBar___________________________________________________ -->
-    <div class="grid-container">
-        <div class="nav grid-item">
-            <nav class="navbar">
-                <div class="navlogo">
-                    <a href="./index.html">PixelUI</a>
-                </div>
-                <div class="nav-links">
-                    <ul>
-                        <li class="list-item-inline">
-                            <a href="./docs.html" class="navicon-links" title="Documentation">
-                                Docs
-                            </a>
-                        </li>
-                        <li class="list-item-inline">
-                            <a href="https://github.com/khyatibaria/Component-Library" class="navicon-links"
-                                title="GitHub" target="_blank">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div>
+      <nav class="navigation-container" style="justify-content: space-between">
+        <div class="navigation-logo-container">
+          <div class="navigation-logo">
+            <a href="./index.html"
+              ><i class="fab fa-uikit fa-2x" style="color: white"></i
+            ></a>
+          </div>
+          <div class="navigation-brand"><a href ="./index.html">PixelUI</a></div>
         </div>
-        <!--  _______________________________________________Main___________________________________________________ -->
-        <div class="main grid-item">
-            <main class="main">
-                <section class="hero">
-                    <div class="hero-head">
-                        Pixel UI
-                    </div>
-                    <div class="hero-subhead">
-                        <!-- Build Clean, Modern UI Interfaces -->
-                    </div>
-                    <div class="hero-body">
-                        <p>
-                            Pixel UI is a free Lightweight CSS Component Library to help you build Clean, Modern looking
-                            websites and Applications Faster.
-                        </p>
-                        <a href="#installation">
-                            <button class="hero-btn">Get Started</button>
-                        </a>
-                    </div>
+        <div class="navigation-links-container">
+          <a
+            href="./docs.html"
+            class="navigation-link"
+            title="Documentation"
+            target="_blank"
+          >
+            Docs
+          </a>
+          <a
+            href="https://github.com/khyatibaria/Component-Library"
+            class="navigation-link"
+            title="GitHub"
+            target="_blank"
+          >
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
         </div>
+      </nav>
+      <!--  _______________________________________________Main___________________________________________________ -->
+      <div class="main">
+        <section class="hero">
+          <div class="hero-head">Pixel UI</div>
+          <div class="hero-subhead">Build Clean, Modern UI Interfaces</div>
+          <div class="hero-body">
+            <p>
+              Pixel UI is a free Lightweight CSS Component Library to help you
+              build Clean, Modern looking websites and Applications Faster.
+            </p>
+            <a href="#installation">
+              <button class="hero-btn">Get Started</button>
+            </a>
+          </div>
         </section>
+
         <section class="docs" id="installation">
-            <div class="docs-card">
-                <div class="docs-head">
-                    Installation
-                </div>
-                <div class="docs-text">
-                    <p>
-                        The easiest way to get started with PixelUI is just to copy the CDN link and paste it inside the
-                        <strong> &lt;head&gt; </strong> tag in your HTML.
-                    </p>
-                    <p>
-                        For More Details about CSS Components and how to use them click on the Documentation link below.
-                    </p>
-                </div>
-                <a href="./docs.html"><button class="docs-btn">Documentation</button></a>
+          <div class="docs-card">
+            <div class="docs-head">Installation</div>
+            <div class="docs-text">
+              <p>
+                The easiest way to get started with PixelUI is just to copy the
+                CDN link and paste it inside the
+                <strong> &lt;head&gt; </strong> tag in your HTML.
+              </p>
+              <p>
+                For More Details about CSS Components and how to use them click
+                on the Documentation link below.
+              </p>
             </div>
-
-            <div class="docs-link">
-                <iframe class="cdn-link"
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=blackboard&wt=none&l=auto&width=538&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Fira+Code&fs=13px&lh=136%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522%250A%2520%2520href%253D%2522https%253A%252F%252Fpixel-u-i.netlify.app%252FComponents%252Fpixelui.css%2522%2520%252F%253E%250A"
-                    style="width: 560px; height: 132px; border:0; transform: scale(1); overflow:hidden;"
-                    sandbox="allow-scripts allow-same-origin">
-                </iframe>
-                
-            </div>
-
+            <a href="./docs.html"
+              ><button class="docs-btn">Documentation</button></a
+            >
+          </div>
+          <div class="docs-link">
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=250%25&si=false&es=2x&wm=false&code=%253Clink%2520rel%253D%2522stylesheet%2522href%253D%2522https%253A%252F%252Fpixel-u-i.netlify.app%252FComponents%252Fpixelui.css%2522%2520%252F%253E"
+              style="width: 100%; height: 110px; border:0; transform: scale(1); overflow:scroll;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+          </div>
         </section>
-        </main>
-    </div>
+      </div>
     <!--  _______________________________________________Footer___________________________________________________ -->
-    <div class="footer grid-item">
-        <footer class="footer">
-            <div class="footer-header">
-                Made with <span class="primary-color">&lt;/&gt;</span> by Khyati Baria</span>
-            </div>
-            <ul class="footer-list">
-                <li class="list-item-inline">
-                    <a class="footer-link" href="https://github.com/khyatibaria" target="_blank">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="footer-link" href="https://twitter.com/khyatibaria" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="footer-link" href="https://www.linkedin.com/in/khyati-baria-2415bb213" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                </li>
-                <li class="list-item-inline">
-                    <a class="footer-link" href="https://www.instagram.com/khyati.baria/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-        </footer>
-    </div>
+      <footer class="footer">
+          <div class="footer-header">
+            Made with <span style="color: #f699ba;">&lt;/&gt;</span> by Khyati Baria</span>
+          </div>
+          <ul class="footer-list">
+            <li>
+              <a class="footer-link" href="https://github.com/khyatibaria" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://twitter.com/khyatibaria" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://www.linkedin.com/in/khyati-baria-2415bb213" target="_blank">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </li>
+            <li>
+              <a class="footer-link" href="https://www.instagram.com/khyati.baria/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+      </footer>
     </div>
     <script src="./docs-script/index.js"></script>
-</body>
-
+  </body>
 </html>
