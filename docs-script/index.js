@@ -1,5 +1,6 @@
 let head = document.querySelector(".hero-subhead");
-const menu = document.querySelector("#menuBtn");
+const menuOpen = document.querySelector("#menuOpen");
+const menuClose = document.querySelector("#menuClose");
 const sideBar = document.querySelector(".sidebar");
 
 let i = 0;
@@ -17,8 +18,13 @@ function typeWriter() {
 }
 
 const openSideBar = () => {
-  console.log("hehehe");
-  sideBar.classList.toggle("visibility");
+  sideBar.classList.add("visibility");
 };
 
-menu.addEventListener("click", openSideBar);
+const closeSideBar = () => {
+  sideBar.classList.remove("visibility");
+};
+
+menuOpen.addEventListener("click", openSideBar);
+
+menuClose.addEventListener("click", closeSideBar);
