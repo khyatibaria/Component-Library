@@ -27,8 +27,11 @@
       <nav class="navigation-container" style="justify-content: space-between">
         <div class="navigation-logo-container">
           <div class="navigation-logo">
-            <button class="btn" id="menuBtn">
-              <span class="fas fa-bars" style="color: white"></span>
+            <button class="btn" id="menuOpen">
+              <span
+                class="fas fa-bars"
+                style="color: white; font-size: 1.5rem"
+              ></span>
             </button>
           </div>
           <div class="navigation-logo">
@@ -75,7 +78,15 @@
       </nav>
       <!--  _______________________________________________SideBar___________________________________________________ -->
       <div class="sidebar">
-        <div class="sidebar-header">Components</div>
+        <div class="header-container">
+          <button class="btn" id="menuClose" style="align-self: flex-end">
+            <span
+              class="fas fa-times"
+              style="color: white; font-size: 1.5rem"
+            ></span>
+          </button>
+          <div class="sidebar-header">Components</div>
+        </div>
         <hr />
         <div class="links-container" id="side-bar">
           <ul class="sidebar-links">
@@ -710,7 +721,7 @@
             </div>
 
             <h3 class="component-subhead">Card with Shadow</h3>
-            <div class="wrapper">
+            <div class="card-wrapper">
               <div class="card shadow">
                 <div class="card-header">
                   <img
@@ -750,7 +761,7 @@
             </div>
 
             <h3 class="component-subhead">Card with Text Overlay</h3>
-            <div class="wrapper">
+            <div class="card-wrapper">
               <div class="card">
                 <div class="overlay">
                   <div class="overlay-text">Out of Stocks</div>
@@ -795,7 +806,7 @@
             </div>
 
             <h3 class="component-subhead">Horizontal Card</h3>
-            <div class="wrapper">
+            <div class="card-wrapper" id="horizontal-card">
               <div class="horizontal-card shadow">
                 <div class="horizontal-card-head">
                   <div class="card-badge">BestSeller</div>
