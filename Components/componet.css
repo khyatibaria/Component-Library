@@ -66,7 +66,7 @@
   position: relative;
   margin: 1rem;
   padding: 1rem;
-  height: 3rem;
+  min-height: 3rem;
   border: 2px solid var(--grey);
   background-color: #f5f5f5;
 }
@@ -75,9 +75,13 @@
   text-decoration: none;
 }
 .visibility {
-  display: none;
+  display: block;
 }
-
+#upBtn {
+  position: absolute;
+  bottom: 15;
+  right: 15;
+}
 div#main-container::-webkit-scrollbar {
   width: 0.5rem;
   background-color: gray;
@@ -106,6 +110,17 @@ div#main-container::-webkit-scrollbar-thumb {
   }
   .code-snippet,
   .component-subhead {
+    display: none;
+  }
+  .toast-wrapper {
+    min-height: 5rem;
+  }
+  #upBtn {
+    right: 5;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #horizontal-card {
     display: none;
   }
 }
