@@ -181,3 +181,22 @@
   outline: none;
   border-radius: 2rem;
 }
+@media only screen and (max-width: 600px) {
+  .horizontal-card {
+    width: 20rem;
+    height: 12rem;
+  }
+  .horizontal-image {
+    height: 12rem;
+    width: 9rem;
+  }
+  .card-title {
+    font-size: 1rem;
+  }
+  .card-subtitle {
+    font-size: 0.75rem;
+  }
+  .quantity-label {
+    display: none;
+  }
+}
